@@ -5,14 +5,7 @@ title: What Does Probability "Measure" Mean?
 In many probability courses, you may run into phrases like "probability measure" or "measurable function" or "measurable space". But what does this word "measure" really mean and why is it necessary to have this notion in the first place?
 
 ## Let's start with rulers
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/meter-stick.jpg)
-
 Suppose we would like to measure the length of a wooden table. How would we do so? Let's imagine we are rather archaic and we choose to use a meter stick. In this case, the meter stick is our "length measure": in a sense, we are summarizing the length of a table into a quantitative value (e.g., 5 feet, 12 meters, etc.). You may choose to think of our length measure as a mapping from a space of objects to a space of concrete values.
-
-<figure class="float-right" style="width: 200px">
-	<img src="/media/probability-measure-1.jpg" alt="Gutenberg">
-	<figcaption>Our measurable object</figcaption>
-</figure>
 
 Accordingly, our table is what we would call "measurable". That is, the table is an object that is capable of being summarized or mapped to a quantitative value. You may choose to think of the domain of our mapping function to be the space of all measurable objects. 
 
