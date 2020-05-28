@@ -1,14 +1,6 @@
 ---
 title: Frequency and Time Domain Comparison of the DTFT and DFT
 date: "2020-12-01T22:40:32.169Z"
-template: "post"
-draft: false
-slug: "/posts/dtft-vs-dft/"
-category: "Signal Processing"
-tags:
-  - "Signal Processing"
-  - "Math"
-description: "Basic overview of the sampling theorem and the Nyquist Rate."
 ---
 
 For a discrete-time signal $x[n]$, its DTFT is given by
