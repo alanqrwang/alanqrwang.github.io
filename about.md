@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I'm a PhD student at Cornell University. My advisor is [Mert Sabuncu](https://sabuncu.engineering.cornell.edu/)
+I'm a PhD student at Cornell University. My advisor is [Mert Sabuncu](https://sabuncu.engineering.cornell.edu/).
 
 ### Publications
-* indicates equal contribution.
-+ Deep-learning-based Optimization of the Under-sampling Pattern in MRI. Cagla D. Bahadir*, __Alan Q. Wang*__, Adrian V. Dalca, Mert R. Sabuncu. Proceedings of the National Academy of Sciences, 2017. [[pre-print]](https://arxiv.org/abs/1907.11374)
+\* indicates equal contribution.
++ Deep-learning-based Optimization of the Under-sampling Pattern in MRI. Cagla D. Bahadir*, **Alan Q. Wang\***, Adrian V. Dalca, Mert R. Sabuncu. Proceedings of the National Academy of Sciences, 2017. [[pre-print]](https://arxiv.org/abs/1907.11374)
 
 
 ### Contact me
