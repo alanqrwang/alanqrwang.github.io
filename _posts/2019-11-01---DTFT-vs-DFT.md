@@ -4,7 +4,7 @@ date: "2020-12-01T22:40:32.169Z"
 description: A look at the relationship between the DTFT and the DFT from a frequency and time domain perspective.
 ---
 
-For a discrete-time signal $x[n]$, its DTFT is given by
+For a discrete-time signal $x[n]$, its DTFT is given by asdfasdlfkj;alsdkfj
 
 $$
 X_d(\omega) = \sum_{n=-\infty}^\infty x[n] e^{-j\omega n}.
