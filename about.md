@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a PhD student at Cornell University. My advisor is [Mert Sabuncu](https://sabuncu.engineering.cornell.edu/)
 
-### More Information
+### Publications
+* indicates equal contribution.
++ Deep-learning-based Optimization of the Under-sampling Pattern in MRI. Cagla D. Bahadir*, __Alan Q. Wang*__, Adrian V. Dalca, Mert R. Sabuncu. Proceedings of the National Academy of Sciences, 2017. [[pre-print]](https://arxiv.org/abs/1907.11374)
 
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[aw847@cornell.edu](mailto:email@domain.com)
