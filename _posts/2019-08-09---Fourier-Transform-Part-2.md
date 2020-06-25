@@ -44,7 +44,7 @@ $$
 proj_y(x) = \frac{\langle x, y \rangle}{||y||},
 $$
 
-where the denominator $||y||$ is a normalizing factor. 
+where the denominator $$||y||$$ is a normalizing factor. 
 
 ## Aside: Some properties of the vector space of functions
 Now, I will outline some properties of the vector space of functions that we will need later.
