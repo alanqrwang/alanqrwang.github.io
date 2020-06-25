@@ -114,7 +114,7 @@ Let's use this fact when calculating the negative log-likelihood:
 
 $$
 \begin{eqnarray}
--\log p(y | X; w) &= -\log \prod_{i=1}^N p(y_i | X_i; w) = -\sum_{i=1}^N \log p(y_i | X_i; w)\\
+-\log p(y | X; w) &=& -\log \prod_{i=1}^N p(y_i | X_i; w) = -\sum_{i=1}^N \log p(y_i | X_i; w)\\
  &=& -\sum_{i = 1}^{N} \log\Bigg(\frac{1}{\sqrt{2\pi \sigma^2}} \exp \Big\{-\frac{(y_i - X_i^T w)^2}{2\sigma^2} \Big\}\Bigg) \\
  &=& -\sum_{i = 1}^{N} \Bigg( \log\frac{1}{\sqrt{2\pi \sigma^2}} -\frac{(y_i - X_i^T w)^2}{2\sigma^2}\Bigg) \\
  &=&  -\sum_{i = 1}^{N} \Big( \log\frac{1}{\sqrt{2\pi \sigma^2}}\Big) + \frac{1}{2\sigma^2}\sum_{i=1}^N (y_i - X_i^T w)^2 \\
@@ -122,23 +122,27 @@ $$
 $$
 
 Notice that the first summation is not a function of $w$, so it drops out when taking the derivative. In addition, the factor $\frac{1}{2\sigma^2}$ is a constant and doesn't affect the minimization. Thus, when we minimize the negative log-likelihood, we can equivalently write
+
 $$
-\argmin_w\Bigg(-\sum_{i = 1}^{N} \Big( \log\frac{1}{\sqrt{2\pi \sigma^2}}\Big) + \frac{1}{2\sigma^2}\sum_{i=1}^N (y_i - w^T X_i)^2\Bigg) \\
-= \argmin_w \sum_{i=1}^N (y_i - w^T X_i)^2.
+\text{arg}\min_w\Bigg(-\sum_{i = 1}^{N} \Big( \log\frac{1}{\sqrt{2\pi \sigma^2}}\Big) + \frac{1}{2\sigma^2}\sum_{i=1}^N (y_i - w^T X_i)^2\Bigg) \\
+= \text{arg}\min_w \sum_{i=1}^N (y_i - w^T X_i)^2.
 $$
 
 So, in the end, the expression we are minimizing is identical to $(1)$ in the previous section!
 
 ## 3. Linear Algebra
 Let's go back to our original relation in matrix form:
+
 $$y = Xw.$$ 
 
 Since $N \gg d$ (we have far more observations then the dimension of those observations themselves), $X$ is a tall matrix, i.e. it has more rows than columns. That is, the system is *overdetermined*, because we have more equations than unknowns for which to solve. In general, such a system is inconsistent (does not have a solution), so we need to find some approximation that is optimal and allows for a unique solution.
 
 When a system is overdetermined, the natural thing to do is to find the least squares solution. That is, instead of finding $w$, we find $\hat{w}$ such that
+
 $$
 X\hat{w} = \hat{y},
 $$ 
+
 where $\hat{y}$ is the projection of $y$ onto the column space of $X$, $Col(X)$.
 
 ![projection.png](/media/projection.png)
@@ -146,12 +150,15 @@ where $\hat{y}$ is the projection of $y$ onto the column space of $X$, $Col(X)$.
 Intuitively, $\hat{w}$ is the best approximation for this overdetermined system because $\hat{w}$ is the vector that is closest to $w$ that is in the span of $X$, which allows the system to be consistent. We will see that this approximation has precisely the same solution as the other two formulations. 
 
 Notice that the vector $X\hat{w} - y$ is orthogonal to $Col(X)$. By the [fundamental theorem of linear algebra](https://en.wikipedia.org/wiki/Fundamental_theorem_of_linear_algebra), this means that $X\hat{w} - y \in Nul(X^T)$. By definition of null space, we equivalently can write
+
 $$
 X^T(X\hat{w} - y) = 0 
 $$
+
 $$
 \implies X^TX\hat{w} = X^Ty
 $$
+
 which is exactly the same as our solutions from before!
 
 ## Further Discussion
@@ -165,4 +172,4 @@ Approach 3 is a rather classic approach to solving any overdetermined system, an
 
 [^2]: Also commonly referred to as *residuals*.
 
-[^3]: The notation here is subtle and is important to understand. "$|$" denotes conditional independence as usual, and the variable that follows it is always a random variable. The variable that follows "$;$" denotes parameters of the distribution and is never a random variable, and its what makes this a "likelihood" and not a "probability". Later on, we will be maximizing the distribution with respect to its parameters, so this notation makes it convenient to see what parameters are available to maximize.
+[^3]: The notation here is subtle and is important to understand. "|" denotes conditional independence as usual, and the variable that follows it is always a random variable. The variable that follows "$;$" denotes parameters of the distribution and is never a random variable, and its what makes this a "likelihood" and not a "probability". Later on, we will be maximizing the distribution with respect to its parameters, so this notation makes it convenient to see what parameters are available to maximize.
