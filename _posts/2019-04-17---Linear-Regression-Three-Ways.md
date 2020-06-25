@@ -172,4 +172,4 @@ Approach 3 is a rather classic approach to solving any overdetermined system, an
 
 [^2]: Also commonly referred to as *residuals*.
 
-[^3]: The notation here is subtle and is important to understand. "|" denotes conditional independence as usual, and the variable that follows it is always a random variable. The variable that follows "$;$" denotes parameters of the distribution and is never a random variable, and its what makes this a "likelihood" and not a "probability". Later on, we will be maximizing the distribution with respect to its parameters, so this notation makes it convenient to see what parameters are available to maximize.
+[^3]: The notation here is subtle and is important to understand. "\|" denotes conditional independence as usual, and the variable that follows it is always a random variable. The variable that follows "$;$" denotes parameters of the distribution and is never a random variable, and its what makes this a "likelihood" and not a "probability". Later on, we will be maximizing the distribution with respect to its parameters, so this notation makes it convenient to see what parameters are available to maximize.
