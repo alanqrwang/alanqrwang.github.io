@@ -99,7 +99,7 @@ $$
 y_i \sim \mathcal{N}(w^T X_i, \sigma^2).
 $$
 
-We want to find the parameters $w$ that maximize the likelihood $p(y | X;w)$ [^3]. For a given $i \in \{1, 2, ..., N\}$, 
+We want to find the parameters $w$ that maximize the likelihood $p(y \| X;w)$ [^3]. For a given $i \in \{1, 2, ..., N\}$, 
 
 $$
 p(y_i | X_i; w) = \frac{1}{\sqrt{2\pi \sigma^2}} \exp \Big\{-\frac{(y_i - X_i^Tw)^2}{2\sigma^2} \Big\}
