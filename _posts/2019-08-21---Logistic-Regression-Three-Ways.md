@@ -12,7 +12,11 @@ description: "Notes on binary and multiclass classification from a probabilistic
 ---
 How do we approach classification from a probabilistic standpoint?
 
-Suppose we have a dataset $\mathcal{D} = \{(x_i, y_i)\}_{i=1}^N$, where $x_i \in \mathbb{R}^d$ represents the features and $y_i \in \mathbb{Z}$ represents the class that $x_i$ is in. Invariably, we will want to define a distribution for $p(y_i | x_i)$, figure out the proper parameters that we can tune for $p(y_i|x_i)$, and perform maximum likelihood estimation on those parameters. How do we define the distribution and its parameters for both the binary and multiclass case?
+Suppose we have a dataset 
+
+$$\mathcal{D} = \{(x_i, y_i)\}_{i=1}^N,$$ 
+
+where $x_i \in \mathbb{R}^d$ represents the features and $y_i \in \mathbb{Z}$ represents the class that $x_i$ is in. Invariably, we will want to define a distribution for $p(y_i | x_i)$, figure out the proper parameters that we can tune for $p(y_i|x_i)$, and perform maximum likelihood estimation on those parameters. How do we define the distribution and its parameters for both the binary and multiclass case?
 
 # Binary Classification
 I will present the case of binary classification by defining $y_i \in\{0, 1\}$, but note that there are other definitions that lead to different distributions (see my post on [general supervised learning](alanqwang.com/posts/general-framework-for-supervised-learning/#logistic-regression) for another example).
