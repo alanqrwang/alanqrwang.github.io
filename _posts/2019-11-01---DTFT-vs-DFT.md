@@ -15,9 +15,10 @@ There are two main issues of the DTFT from a computational standpoint.
 2. The DTFT is defined for all continuous values of $\omega \in \mathbb{R}$.
 
 The DFT solves both of these issues by acting on only a finite number of $N$ samples $x[n]$ for $n=0, 1, ..., N-1$, as well as being calculated for discrete frequencies $\omega_k = \frac{2\pi}{N} k$. In this post, we will discuss how both of these facts allows us to arrive at the final expression for the DFT of a discrete-time signal $x[n]$:
-$$\begin{eqnarray}
+
+$$
 X[k] = \sum_{n=0}^{N-1} x_n e^{-j\frac{2\pi}{N}kn}
-\end{eqnarray}$$
+$$
 
 ## Frequency Domain: The DFT is the *sampled* DTFT of a *finite-length* signal
 To solve both of the aforementioned computational issues associated with the DTFT, we must make two restrictions:
@@ -26,13 +27,17 @@ To solve both of the aforementioned computational issues associated with the DTF
 
 ### 1. Finite-length $x[n]$
 We would like to convert our infinite-length sequence $x[n]$ to a finite-length sequence $x_N[n]$ defined for $n=0, 1, ..., N-1$. These two sequences can be rigorously related as follows:
-$$\begin{eqnarray}
+
+$$
 x_N[n] := x[n]p_N[n],
-\end{eqnarray}$$
+$$
+
 where $p_N[n]$ is a rectangular pulse sequence defined as
-$$\begin{eqnarray}
+
+$$
 p_N[n] := \begin{cases}1, &0 \leq n \leq N-1 \\ 0, &\text{otherwise}\end{cases}
-\end{eqnarray}$$
+$$
+
 ### 2. Discrete samples of $\omega$
 Importantly, the DTFT is $2\pi$-periodic by definition. If we have $N$ samples and an indexing variable $k=0, 1, 2, ..., N-1$, then we can define the DFT from the DTFT with sampling and clever substitution:
 
@@ -44,13 +49,17 @@ X[k] &:=& X_d\left(\frac{2\pi}{N}k\right) = \sum_{n=-\infty}^\infty x[n] e^{-j\f
 \end{eqnarray}$$ 
 
 where $x_N[n]$ is defined as
+
 $$
 x_N[n] := \sum_{m=-\infty}^\infty x[n-mN].
 $$
+
 Notice that $x_N[n]$ is the inverse DFT of $X[k] = X_d\left(\frac{2\pi}{N}k\right)$. In addition, $x_N[n]$ is $N$-periodic, since
+
 $$
 x_N[n + N] = \sum_{m=-\infty}^\infty x[n+N-mN] = \sum_{m=-\infty}^\infty x[n-mN] = x_N[n].
 $$
+
 So, we can see that the process of sampling the DTFT in the frequency domain results in periodicity in the time domain! 
 
 This leads us to two cases:
@@ -63,10 +72,11 @@ Why does this periodicity arise? Similar to how [sampling in the time domain res
 ## Time Domain: Linear vs. Circular Convolution
 You may have heard that the DTFT corresponds to linear convolution in the time domain, while the DFT corresponds to circular convolution in the time domain. How does the circularity arise?
 
-$$\begin{eqnarray}
+$$
 X_d(\omega) = \sum_{n=-\infty}^\infty x[n] e^{-j\omega n}.
-\end{eqnarray}$$
-$$\begin{eqnarray}
+$$
+
+$$
 X[k] = \sum_{n=0}^{N-1} x_n e^{-j\frac{2\pi}{N}kn}
-\end{eqnarray}$$
+$$
 The reason lies in the periodicity that arises due to the act of sampling in the frequency domain.
