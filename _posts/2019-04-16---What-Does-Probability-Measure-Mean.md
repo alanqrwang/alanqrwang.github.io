@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What Does Probability "Measure" Mean?
+description: In many probability courses, you may run into phrases like "probability measure" or "measurable function" or "measurable space". But what does this word "measure" really mean and why is it necessary to have this notion in the first place?
 ---
 In many probability courses, you may run into phrases like "probability measure" or "measurable function" or "measurable space". But what does this word "measure" really mean and why is it necessary to have this notion in the first place?
 
