@@ -5,9 +5,11 @@ description: A look at the relationship between the DTFT and the DFT from a freq
 ---
 
 For a discrete-time signal $x[n]$, its DTFT is given by
-$$\begin{eqnarray}
+
+$$
 X_d(\omega) = \sum_{n=-\infty}^\infty x[n] e^{-j\omega n}.
-\end{eqnarray}$$
+$$
+
 There are two main issues of the DTFT from a computational standpoint. 
 1. The DTFT is calculated over an infinite number of samples $x[n]$, for $n \in \mathbb{Z}$.
 2. The DTFT is defined for all continuous values of $\omega \in \mathbb{R}$.
