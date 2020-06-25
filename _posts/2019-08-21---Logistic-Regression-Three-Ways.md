@@ -23,7 +23,7 @@ $$
 p(z) = \begin{cases}p , &z = 1 \\ 1-p, &z = 0.\end{cases}
 $$
 
-If we allow $p(y_i|x_i) = \text{Ber}(p)$ where we choose to learn $p$, we run into the issue where we cannot incorporate $x_i$ into the distribution. Clearly, we would like our distribution to be dependent on $x_i$ so that we can make predictions of the label $y_i$ based on the given realization of $x_i$. In order to include $x_i$ into the distribution, we will take the approach given by [generalized linear models](https://en.wikipedia.org/wiki/Generalized_linear_model) and define 
+If we allow $p(y_i\|x_i) = \text{Ber}(p)$ where we choose to learn $p$, we run into the issue where we cannot incorporate $x_i$ into the distribution. Clearly, we would like our distribution to be dependent on $x_i$ so that we can make predictions of the label $y_i$ based on the given realization of $x_i$. In order to include $x_i$ into the distribution, we will take the approach given by [generalized linear models](https://en.wikipedia.org/wiki/Generalized_linear_model) and define 
 
 $$p = \sigma(w^T x_i),$$
 
