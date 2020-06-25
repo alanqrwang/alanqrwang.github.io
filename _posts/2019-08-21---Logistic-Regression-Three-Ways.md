@@ -133,7 +133,7 @@ Maximizing the log-likelihood leads us to
 
 $$
 \begin{eqnarray}
-\text{arg}\max_W p_w(y_1, ..., y_{N}|x_1, ..., x_{N}) &=& \argmax_W \prod_{i=1}^{N} p_W(y_i | x_i) \\
+\text{arg}\max_W p_w(y_1, ..., y_{N}|x_1, ..., x_{N}) &=& \text{arg}\max_W \prod_{i=1}^{N} p_W(y_i | x_i) \\
 &=& \text{arg}\min_W -\sum_{i=1}^{N} \log p_W(y_i | x_i) \\
 &=& \text{arg}min_W -\sum_{i=1}^{N} \log \prod_{k=1}^C \text{softmax}(w_k^T x_i) ^ {\mathbb{1}_{\{y_i=k\}}} \\
 &=& \text{arg}min_W -\sum_{i=1}^{N} \sum_{k=1}^C \log \text{softmax}(w_k^T x_i) ^ {\mathbb{1}_{\{y_i=k\}}} \\
