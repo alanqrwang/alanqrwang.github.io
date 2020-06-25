@@ -10,7 +10,7 @@ tags:
   - "Math"
 description: "Part 2 of a two-part series on Fourier transforms. In this post, as a projection onto a space of eigenfunctions."
 ---
-In [Part 1](https://www.alanqwang.com/posts/fourier-transform-part-1/), I introduced the Fourier Transform as the "limit" of the Fourier series. We found that extending the period of a periodic function in the time domain resulted in a narrowing of the distance between consecutive Fourier coefficients in the frequency domain. By extending the period to infinity (thus rendering the function aperiodic), the distance between Fourier coefficients became so small that we eventually arrived at a continuous function in the frequency domain, this function being the Fourier transform.
+In [Part 1](https://alanqrwang.github.io/posts-fourier-transform-part-1/), I introduced the Fourier Transform as the "limit" of the Fourier series. We found that extending the period of a periodic function in the time domain resulted in a narrowing of the distance between consecutive Fourier coefficients in the frequency domain. By extending the period to infinity (thus rendering the function aperiodic), the distance between Fourier coefficients became so small that we eventually arrived at a continuous function in the frequency domain, this function being the Fourier transform.
 
 In this post, I will introduce the Fourier Transform as a projection onto the subspace of complex exponentials. It can be shown that the Fourier series is, in fact, a projection onto vectors of the form $e^{jn \omega_0 t}$, where $n \in \mathbb{Z}$. The Fourier transform has a similar reasoning but in a continuous sense, with basis $e^{j \omega t}$, where $\omega \in \mathbb{R}$. 
 
