@@ -22,25 +22,32 @@ The topic of linear regression is typically taught through the lens of least squ
 Let $N$ be the number of observations we have and $d$ be the dimension of the data over which we are predicting. We will make a (very safe) assumption that $N \gg d$. 
 
 Let $i \in \{1, 2, ..., N\}$. Linear regression involves finding a vector of parameters $w \in \mathbb{R}^{(d+1) \times 1}$, which fits a line of the form [^1]
+
 $$
 y_i = X_i^T w + \epsilon_i
 $$ 
+
 where $y_i \in \mathbb{R}$, $X_i \in \mathbb{R}^{(d+1)\times 1}$, and $\epsilon_i \sim \mathcal{N}(0, \sigma^2)$ for some $\sigma^2$.
 
 Typically, we vectorize everything both for ease of notation and to take advantage of cool matrix/vector manipulations (as we will see later). Define $y \in \mathbb{R}^{N \times 1}$, $X \in \mathbb{R}^{N \times (d+1)}$ such that
+
 $$
 y = \begin{bmatrix}y_1 \\ y_2 \\ \vdots \\ y_N \end{bmatrix}, X = \begin{bmatrix}X_1^T \\ X_2^T \\ \vdots \\ X_N^T \end{bmatrix}.
 $$ 
+
 In this way, we can equivalently write the problem as
+
 $$
 y = Xw + \epsilon,
 $$
+
 where $\epsilon \in \mathbb{R}^{N \times 1}$ is a vector of i.i.d $\epsilon_i$'s.
 
 How do we find the parameters $w$ that fit the dataset most closely? This post discusses 3 approaches and attempts to draw comparisons between them.
 
 ## 1. Empirical Risk Minimization
 The simplest and most intuitive formulation is one of minimizing the error [^2] between the observations and our fitted line. This error is precisely
+
 $$
 \epsilon = y - Xw.
 $$ 
@@ -53,41 +60,47 @@ Intuitively, the line that minimizes the error over all the points in the datase
 To this end, let's formulate the solution as an optimization problem with the program:
 
 $$
-\begin{aligned}
-\argmin_{w} ||y-Xw||^2 
-= \argmin_w \sum_{i=1}^N ||y_i - X_i^T w||^2 \tag{1}
-\end{aligned}
+\text{arg}\min_{w} ||y-Xw||^2 
+= \text{arg}\min_w \sum_{i=1}^N ||y_i - X_i^T w||^2 \tag{1}
 $$
 
 To solve this, we take the derivative of the objective function with respect to $w$
 
 $$
-\begin{aligned}
-\frac{d}{dw} \Big(||y-Xw||^2\Big) &= \frac{d}{dw} \Big((y-Xw)^T(y-Xw)\Big) \\
-&= \frac{d}{dw} \Big(y^Ty - 2(Xw)^Ty + w^TX^TXw\Big) \\
-&= 2X^TXw-2X^Ty,
-\end{aligned}
+\begin{eqnarray}
+\frac{d}{dw} \Big(||y-Xw||^2\Big) &=& \frac{d}{dw} \Big((y-Xw)^T(y-Xw)\Big) \\
+&=& \frac{d}{dw} \Big(y^Ty - 2(Xw)^Ty + w^TX^TXw\Big) \\
+&=& 2X^TXw-2X^Ty,
+\end{eqnarray}
 $$
+
 and set it equal to $0$ to get the expression: 
+
 $$
 X^TXw = X^Ty.
 $$
+
 If $X^TX$ is full rank (which it usually is), then we obtain the final answer:
+
 $$
 w = (X^TX)^{-1}X^Ty.
 $$
+
 ## 2. Probabilistic
 Let's return to our original model for linear regression and think in a more probabilistic lens:
 
 $$
 y_i = X_i^Tw + \epsilon.
 $$
+
 This model assumes that our observations $y_i$ are noisy versions of a *true* underlying process $X_i^T w$, where the noise is modeled by a Gaussian random variable $\epsilon$ with $0$ mean. In essence, $y_i$ is also a random variable distributed as
+
 $$
 y_i \sim \mathcal{N}(w^T X_i, \sigma^2).
 $$
 
 We want to find the parameters $w$ that maximize the likelihood $p(y | X;w)$ [^3]. For a given $i \in \{1, 2, ..., N\}$, 
+
 $$
 p(y_i | X_i; w) = \frac{1}{\sqrt{2\pi \sigma^2}} \exp \Big\{-\frac{(y_i - X_i^Tw)^2}{2\sigma^2} \Big\}
 $$
@@ -100,13 +113,14 @@ Crucially, we can leverage the fact that $y_i$ is only dependent on $X_i$ (clear
 Let's use this fact when calculating the negative log-likelihood:
 
 $$
-\begin{aligned}
+\begin{eqnarray}
 -\log p(y | X; w) &= -\log \prod_{i=1}^N p(y_i | X_i; w) = -\sum_{i=1}^N \log p(y_i | X_i; w)\\
- &= -\sum_{i = 1}^{N} \log\Bigg(\frac{1}{\sqrt{2\pi \sigma^2}} \exp \Big\{-\frac{(y_i - X_i^T w)^2}{2\sigma^2} \Big\}\Bigg) \\
- &= -\sum_{i = 1}^{N} \Bigg( \log\frac{1}{\sqrt{2\pi \sigma^2}} -\frac{(y_i - X_i^T w)^2}{2\sigma^2}\Bigg) \\
- &=  -\sum_{i = 1}^{N} \Big( \log\frac{1}{\sqrt{2\pi \sigma^2}}\Big) + \frac{1}{2\sigma^2}\sum_{i=1}^N (y_i - X_i^T w)^2 \\
-\end{aligned}
+ &=& -\sum_{i = 1}^{N} \log\Bigg(\frac{1}{\sqrt{2\pi \sigma^2}} \exp \Big\{-\frac{(y_i - X_i^T w)^2}{2\sigma^2} \Big\}\Bigg) \\
+ &=& -\sum_{i = 1}^{N} \Bigg( \log\frac{1}{\sqrt{2\pi \sigma^2}} -\frac{(y_i - X_i^T w)^2}{2\sigma^2}\Bigg) \\
+ &=&  -\sum_{i = 1}^{N} \Big( \log\frac{1}{\sqrt{2\pi \sigma^2}}\Big) + \frac{1}{2\sigma^2}\sum_{i=1}^N (y_i - X_i^T w)^2 \\
+\end{eqnarray}
 $$
+
 Notice that the first summation is not a function of $w$, so it drops out when taking the derivative. In addition, the factor $\frac{1}{2\sigma^2}$ is a constant and doesn't affect the minimization. Thus, when we minimize the negative log-likelihood, we can equivalently write
 $$
 \argmin_w\Bigg(-\sum_{i = 1}^{N} \Big( \log\frac{1}{\sqrt{2\pi \sigma^2}}\Big) + \frac{1}{2\sigma^2}\sum_{i=1}^N (y_i - w^T X_i)^2\Bigg) \\
