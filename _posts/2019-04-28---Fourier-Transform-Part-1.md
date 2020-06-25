@@ -17,7 +17,7 @@ $$
 X(\omega) = \int_{-\infty}^\infty x(t) e^{-j\omega t} dt \longleftrightarrow x(t) = \frac{1}{2\pi}\int_{-\infty}^\infty X(\omega) e^{j \omega t} d\omega.
 $$
 
-This post is the first of a two-part series detailing two separate intuitions for the Fourier Transform. The first post approaches the Fourier transform as the aperiodic "limit" of the Fourier series, while the [second part](https://www.alanqwang.com/posts/fourier-transform-part-2/) approaches the Fourier transform from a more abstract algebra perspective. In both parts, we will restrict our attention to continuous-time signals only, although most concepts have a discrete analogue. 
+This post is the first of a two-part series detailing two separate intuitions for the Fourier Transform. The first post approaches the Fourier transform as the aperiodic "limit" of the Fourier series, while the [second part](https://alanqrwang.github.io/posts-fourier-transform-part-1/) approaches the Fourier transform from a more abstract algebra perspective. In both parts, we will restrict our attention to continuous-time signals only, although most concepts have a discrete analogue. 
 
 ## The Quick and Dirty on the Fourier Series
 Any periodic function can be expressed as a sum of harmonically-related complex exponentials. This is the central idea surrounding the Fourier Series. Formally, we can write (the proper word is *synthesize*) any periodic function $\tilde{x}(t)$ as a linear combination of the form
