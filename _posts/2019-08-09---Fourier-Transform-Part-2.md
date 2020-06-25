@@ -69,7 +69,7 @@ You may think of the time domain representation of signals as having basis $$\{\
 ## Why do we use $e^{j\omega t}$ as the basis?
 By itself, changing the basis of a signal is, at best, a fun mathematical exercise and, at worst, pretty meaningless and needlessly complex. However, it turns out that defining a signal in terms of complex exponentials has a remarkable property that allows an alternative, and often times much simpler, way of analyzing LTI systems.
 
-Consider an LTI system characterized by an impulse response $h(t)$. A curious property of LTI systems is that complex exponential inputs are eigenfunctions of the system. That is, if the system is defined as $\mathcal{S}\{x(t)\}$, then for input $x(t) = e^{j\omega t}$, 
+Consider an LTI system characterized by an impulse response $h(t)$. A curious property of LTI systems is that complex exponential inputs are eigenfunctions of the system. That is, if the system is defined as $$\mathcal{S}\{x(t)\}$$, then for input $$x(t) = e^{j\omega t}$$, 
 
 $$
 \mathcal{S}\left\{e^{j\omega t}\right\} = \int_{-\infty}^\infty e^{j\omega (t-\tau)} h(\tau) d\tau = \underbrace{e^{j\omega t}}_{x(t)}\underbrace{\int_{-\infty}^\infty e^{j\omega \tau} h(-\tau) d\tau}_{H(\omega)} = H(\omega) x(t).
