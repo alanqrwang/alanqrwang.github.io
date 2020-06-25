@@ -77,17 +77,19 @@ The compressed sensing theory requires that our true image $x$ be sparse in some
 The way to encode this in our optimization function is to represent the problem as
 
 $$
-\argmin_x ||\Psi x||_0, \tag{1}
+\text{arg}\min_x ||\Psi x||_0, \tag{1}
 $$ 
 
 $$
 \text{   subject to   } y = \mathcal{F}_u x.
 $$
 
-$\Psi$ is the sparse transform operator and $||\cdot||_0$ denotes the $\ell_0$ quasi-norm, which represents the number of non-zero elements. Common choices for $\Psi$ include the wavelet transform, contourlet transform, finite-differences, etc.
+$\Psi$ is the sparse transform operator and $\||\cdot\||_0$ denotes the $\ell_0$ quasi-norm, which represents the number of non-zero elements. Common choices for $\Psi$ include the wavelet transform, contourlet transform, finite-differences, etc.
 
 A way to view the optimization problem in $(1)$ is to rewrite it in a Lagrangian setup:
+
 $$
-\argmin_x ||\mathcal{F}_u x - y||_2^2 + \lambda||\Psi x||_0,
+\text{arg}\min_x ||\mathcal{F}_u x - y||_2^2 + \lambda||\Psi x||_0,
 $$
+
 where $\lambda \in \mathbb{R}^+$.
