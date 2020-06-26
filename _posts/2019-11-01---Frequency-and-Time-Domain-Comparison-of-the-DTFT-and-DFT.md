@@ -75,10 +75,11 @@ Why does this periodicity arise? Similar to how [sampling in the time domain res
 You may have heard that the DTFT corresponds to linear convolution in the time domain, while the DFT corresponds to circular convolution in the time domain. How does the circularity arise?
 
 $$
-X_d(\omega) = \sum_{n=-\infty}^\infty x[n] e^{-j\omega n}.
+X_d(\omega) = \sum_{n=-\infty}^\infty x[n] e^{-j\omega n},
 $$
 
 $$
-X[k] = \sum_{n=0}^{N-1} x_n e^{-j\frac{2\pi}{N}kn}
+X[k] = \sum_{n=0}^{N-1} x_n e^{-j\frac{2\pi}{N}kn}.
 $$
+
 The reason lies in the periodicity that arises due to the act of sampling in the frequency domain.
