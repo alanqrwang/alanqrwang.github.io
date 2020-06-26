@@ -64,10 +64,12 @@ So, we can see that the process of sampling the DTFT in the frequency domain res
 
 This leads us to two cases:
 + If $x[n] = 0$ outside of the range $n = 0, 1, ..., N-1$, then we have precisely that $X[k] = X_d(\frac{2\pi}{N}k)$.
-+ If $x[n]$ has length greater than $N$ or is of infinite length, then we are forced to make $x[n]$ finite (as discuessed in the previous subsection) so that $X[k] = \sum_{n=0}^{N-1} x_N[n] e^{-j \frac{2\pi}{N}kn}$.
++ If $x[n]$ has length greater than $N$ or is of infinite length, then we are forced to make $x[n]$ finite (as discuessed in the previous subsection) so that 
+
+$$X[k] = \sum_{n=0}^{N-1} x_N[n] e^{-j \frac{2\pi}{N}kn}$$.
 
 In practice, most signals are finite; for example, all images and speech signals are finite.
-Why does this periodicity arise? Similar to how [sampling in the time domain results in periodicity in the frequency domain](https://www.alanqwang.com/posts/sampling-reconstruction-and-the-nyquist-rate/), we are losing information during the sampling process. In particular, we are selecting information at discrete frequencies in the interval $[0, 2\pi]$, and increasing the space between consecutive frequencies.
+Why does this periodicity arise? Similar to how [sampling in the time domain results in periodicity in the frequency domain](https://alanqrwang.github.io/posts-sampling-reconstruction-and-the-nyquist-rate/), we are losing information during the sampling process. In particular, we are selecting information at discrete frequencies in the interval $[0, 2\pi]$, and increasing the space between consecutive frequencies.
 
 ## Time Domain: Linear vs. Circular Convolution
 You may have heard that the DTFT corresponds to linear convolution in the time domain, while the DFT corresponds to circular convolution in the time domain. How does the circularity arise?
