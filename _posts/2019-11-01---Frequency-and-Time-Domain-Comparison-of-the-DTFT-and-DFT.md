@@ -29,7 +29,7 @@ To solve both of the aforementioned computational issues associated with the DTF
 We would like to convert our infinite-length sequence $x[n]$ to a finite-length sequence $x_N[n]$ defined for $n=0, 1, ..., N-1$. These two sequences can be rigorously related as follows:
 
 $$
-x_N[n] := x[n]p_N[n],
+x_p[n] := x[n]p_N[n],
 $$
 
 where $p_N[n]$ is a rectangular pulse sequence defined as
