@@ -10,7 +10,7 @@ tags:
 description: "An overview of overdetermined and underdetermined systems, the role of regularization, and applications to compressed sensing."
 ---
 ## Regularization 
-In a [previous post](https://www.alanqwang.com/posts/underdetermined-systems-and-regularization/), I discussed the concept of regularization in the underdetermined, least squares model:
+In a [previous post](https://alanqrwang.github.io/posts-underdetermined-systems-and-regularization/), I discussed the concept of regularization in the underdetermined, least squares model:
 
 $$
 x^* = \text{arg}\min_x ||Ax - y||_2^2 + \lambda \mathcal{R}(x). 
