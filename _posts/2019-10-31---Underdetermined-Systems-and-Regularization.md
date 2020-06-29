@@ -40,19 +40,6 @@ $$
 
 How does adding this term affect our solutions? One way to view it is as adding an additional cost term. Values of $x$ that cause high values of $\mathcal{R}(x)$ will be penalized, and therefore won't be feasible solutions in this setting. For example, if we define $$\mathcal{R}(x) = \|x\|_2^2$$, then we will be penalizing answers with high $\ell_2$ norms. So, in a sense, a regularization allows us to refine the space of feasible solutions. There is an "art" to designing these regularization functions, because one must have a sense a priori of what to penalize; that is, it is necessary to have an idea of what your solutions *should* look like, even before one obtains the solution!
 
-This ties in nicely to another common interpretation of regularization, and that is as a prior distribution in a Bayesian setting. It can be seen that our model is actually a MAP estimate:
-
-$$
-\begin{eqnarray}
-\text{arg}\min_x ||Ax - y||_2^2 + \lambda \mathcal{R}(x) 
-&=& \text{arg}\min_x e^{||Ax - y||_2^2 + \lambda \mathcal{R}(x)} \\
-&=& \text{arg}\max_x -e^{||Ax - y||_2^2} e^{\lambda \mathcal{R}(x)} \\
-&\propto& \text{arg}max_x p(y|x)p(x) 
-\end{eqnarray}
-$$
-
-Viewed this way, our regularization function represents a distribution from which we assume that our solution $x$ is sampled.
-
 ## Example of Underdetermined System: Compressed Sensing MRI
 In magnetic resonance imaging (MRI), the observations $y \in \mathbb{R}^M$ are assumed to be the output of the forward model
 
