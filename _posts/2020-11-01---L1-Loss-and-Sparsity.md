@@ -13,10 +13,14 @@ description: "An overview of overdetermined and underdetermined systems, the rol
 In a [previous post](https://alanqrwang.github.io/posts-underdetermined-systems-and-regularization/), I discussed the concept of regularization in the underdetermined, least squares model:
 
 $$
-\text{arg}\min_x ||\Psi x - y||_2^2 + \lambda \mathcal{R}(x). 
+\text{arg}\min_x ||\Psi x - y||_2^2,
 $$
 
-Here are two common regularization functions which are so common that they have special names:
+$$
+\text{such that   } \mathcal{R}(x) < \epsilon.
+$$
+
+In this formulation, the regularization function $$\mathcal{R}(x)$$ is designed such that it takes high values for undesirable solutions $x$ and low values for desirable solutions $x$. As examples, here are two common regularization functions which are so common that they have special names:
 
 + If we penalize solutions with high L2 norm, then we arrive at ridge regression:
 
