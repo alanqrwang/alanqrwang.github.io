@@ -22,10 +22,10 @@ $$
 
 In this formulation, the regularization function $$\mathcal{R}(\theta)$$ is designed such that it takes high values for undesirable solutions $\theta$ and low values for desirable solutions $\theta$. The optimal $$\hat{\theta}$$ should minimize the least-squares expression while also keeping the regularization function as low as possible, which can be encoded in the constraint mathematically as being less than some arbitrary positive value $$\epsilon \in [0, \infty)$$. 
 
-As examples, here are two common regularization functions which are so common that they have special names:
+As examples, here are two common regularization functions which are so common that they have special names.
 
 ### $$\mathcal{R(\theta)} = ||\theta||_2^2$$
-+ If we penalize solutions with high $$\ell_2$$ norm, then we arrive at ridge regression:
+If we penalize solutions with high $$\ell_2$$ norm, then we arrive at ridge regression:
 
 $$
 \text{arg}\min_\theta ||\Psi \theta - y||_2^2,
