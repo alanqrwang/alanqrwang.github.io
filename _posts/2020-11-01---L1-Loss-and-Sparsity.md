@@ -56,9 +56,9 @@ $$
 
 Specifically, it can be proved that LASSO arrives at the sparse solution with high probability. Amazingly, we can reformulate a highly intractable combinatorial problem as a continuous convex optimization problem and arrive at the same result.
 
-Why does using the L1 norm lead us to a sparse solution? The optimal $$\hat{theta}$$ is the vector which intersects the solution space of the least-squares condition and the solution space of the regularization constraint.
+Why does using the L1 norm lead us to a sparse solution? The optimal $$\hat{\theta}$$ is the vector which intersects the solution space of the least-squares condition and the solution space of the regularization constraint.
 ![Sparse representations]({{ site.baseurl }}/images/sparsity_lp.PNG)
 
-The image above shows an example in two dimensions. The line indicates the subspace which satisfies the condition $$\Psi \theta = y$$. The diamond/circle indicates the subspace which satisfies the condition $$||\theta||_p < \epsilon$$. This is commonly referred to as the $$\ell_p$$-norm ball of radius $$\epsilon$$; it follows that larger $$\epsilon$$ would correspond to larger areas (and therefore a larger solution space) of the ball.
+The image above shows an example in two dimensions. The line indicates the subspace which satisfies the condition $$\Psi \theta = y$$. The diamond/circle indicates the subspace which satisfies the condition $$\|\|\theta\|\|_p < \epsilon$$. This is commonly referred to as the $$\ell_p$$-norm ball of radius $$\epsilon$$; it follows that larger $$\epsilon$$ would correspond to larger areas (and therefore a larger solution space) of the ball.
 
 We see that for $$p=2$$, the $$\ell_p$$-norm ball takes a circular shape. 
