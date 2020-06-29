@@ -61,7 +61,12 @@ $$
 If the DTFT $X_d(\omega)$ is not bandlimited, then perfect reconstruction is no longer possible. That is, a major problem arises due to the fact that the DTFT of the sampled signal $x[n]$ is $2\pi$-periodic. If the domain over which an individual replica takes non-zero value exceeds a length of $2\pi$, then the replica will interfere with the neighboring replica when summed together. To be more explicit, if the maximum frequency $\omega_{max}$ exceeds $\pi$, then aliasing will occur. Equivalently, aliasing will occur if
 
 $$
-\omega_{max} > \pi \implies \Omega_{max} T > \pi \implies T > \frac{\pi}{\Omega_{max}} \implies \frac{1}{f} > \frac{1}{2f_{max}} \implies f < 2f_{max}
+\begin{aligned}
+\omega_{max} > \pi &\implies \Omega_{max} T > \pi \\
+ &\implies T > \frac{\pi}{\Omega_{max}} \\
+ &\implies \frac{1}{f} > \frac{1}{2f_{max}} \\
+ &\implies f < 2f_{max}
+\end{aligned}
 $$
 
 Thus, we arrive at the Nyquist rate, which states that perfect reconstruction of the sampled signal is possible if sampling is done at twice the maximum frequency of the original signal:
