@@ -11,27 +11,34 @@ description: "An overview of overdetermined and underdetermined systems, the rol
 ---
 ## Regularization 
 In a [previous post](https://www.alanqwang.com/posts/underdetermined-systems-and-regularization/), I discussed the concept of regularization in the underdetermined, least squares model:
+
 $$
-x^* = \argmin_x ||Ax - y||_2^2 + \lambda \mathcal{R}(x). 
+x^* = \text{arg}\min_x ||Ax - y||_2^2 + \lambda \mathcal{R}(x). 
 $$
 
 Here are two common regularization functions which are so common that they have special names:
 ### Ridge Regression
 If we penalize solutions with high L2 norm, then we arrive at ridge regression:
+
 $$
-\hat{x} = \argmin_x ||Ax - y||_2^2 + \lambda||x||_2^2.
+\hat{x} = \text{arg}\min_x ||Ax - y||_2^2 + \lambda||x||_2^2.
 $$
+
 The nice thing about ridge regression is that it has closed-form solution
+
 $$
 \hat{x} = (A^HA + \lambda I)^{-1}A^Hy.
 $$
-Interestingly, it can be seen that the ridge regression solution makes the otherwise rank-deficient matrix $(\Psi^T \Psi)^{-1}$ invertible by adding a constant $\lambda$ to the diagonal entries.
+
+Interestingly, it can be seen that the ridge regression solution makes the otherwise rank-deficient matrix $(A^T A)^{-1}$ invertible by adding a constant $\lambda$ to the diagonal entries.
 
 ### LASSO
 Alternatively, if we penalize solutions with high L1 norm, then we arrive at LASSO:
+
 $$
-\hat{x} = \argmin_x ||Ax-y||_2^2 + \lambda||x||_1.
+\hat{x} = \text{arg}\min_x ||Ax-y||_2^2 + \lambda||x||_1.
 $$
+
 Specifically, it can be proved that LASSO arrives at the sparse solution with high probability. Amazingly, we can reformulate a highly intractable combinatorial problem as a continuous convex optimization problem and arrive at the same result.
 
 Why does using the L1 norm lead us to a sparse solution? I will provide an intuitive, graphical explanation.
