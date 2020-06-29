@@ -18,7 +18,7 @@ $$
 
 Here are two common regularization functions which are so common that they have special names:
 
-If we penalize solutions with high L2 norm, then we arrive at ridge regression:
++ If we penalize solutions with high L2 norm, then we arrive at ridge regression:
 
 $$
 \hat{x} = \text{arg}\min_x ||\Psi x - y||_2^2 + \lambda||x||_2^2.
@@ -32,7 +32,7 @@ $$
 
 Interestingly, it can be seen that the ridge regression solution makes the otherwise rank-deficient matrix $(\Psi^T \Psi)^{-1}$ invertible by adding a constant $\lambda$ to the diagonal entries.
 
-Alternatively, if we penalize solutions with high L1 norm, then we arrive at LASSO:
++ Alternatively, if we penalize solutions with high L1 norm, then we arrive at LASSO:
 
 $$
 \hat{x} = \text{arg}\min_x ||\Psi x-y||_2^2 + \lambda||x||_1.
