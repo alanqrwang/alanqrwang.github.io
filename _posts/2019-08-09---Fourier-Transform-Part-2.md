@@ -56,7 +56,7 @@ $$
 $$
 
 where $^*$ denotes the complex conjugate.
-+ The space of complex exponentials $\{e^{j \omega t}\}_{\omega=-\infty}^\infty$ is an orthogonal basis for $S$. In particular, for $\omega_1, \omega_2 \in \mathbb{R}$,
++ The space of complex exponentials $$\{e^{j \omega t}\}_{\omega=-\infty}^\infty$$ is an orthogonal basis for $S$. In particular, for $\omega_1, \omega_2 \in \mathbb{R}$,
 
 $$
 \langle e^{j\omega_1 t}, e^{j\omega_2 t} \rangle =  \int_{-\infty}^\infty e^{j\omega_1 t} e^{-j\omega_2 t}dt = 2\pi \delta(\omega_1 - \omega_2)
