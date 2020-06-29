@@ -14,10 +14,10 @@ In a [previous post](https://alanqrwang.github.io/posts-underdetermined-systems-
 
 $$
 x^* = \text{arg}\min_x ||Ax - y||_2^2 + \lambda \mathcal{R}(x). 
-$$
+$$404
 
 Here are two common regularization functions which are so common that they have special names:
-### Ridge Regression
+
 If we penalize solutions with high L2 norm, then we arrive at ridge regression:
 
 $$
@@ -32,7 +32,6 @@ $$
 
 Interestingly, it can be seen that the ridge regression solution makes the otherwise rank-deficient matrix $(A^T A)^{-1}$ invertible by adding a constant $\lambda$ to the diagonal entries.
 
-### LASSO
 Alternatively, if we penalize solutions with high L1 norm, then we arrive at LASSO:
 
 $$
@@ -41,8 +40,5 @@ $$
 
 Specifically, it can be proved that LASSO arrives at the sparse solution with high probability. Amazingly, we can reformulate a highly intractable combinatorial problem as a continuous convex optimization problem and arrive at the same result.
 
-Why does using the L1 norm lead us to a sparse solution? I will provide an intuitive, graphical explanation.
-
-## Intuitive, Graphical Explanation hiii
-In a graphical sense, the optimal $$\theta^*$$ which solves the contrained optimization problem in $(1)$ is the $$\theta^*$$ that has the smallest norm and that also intersects the subspace formed by the constraints. Or, put another way, the optimal $$\theta^*$$ is the minimum element in the intersection between the set of norms and the set of solutions of the constraints.
+Why does using the L1 norm lead us to a sparse solution? In a graphical sense, the optimal $$\theta^*$$ which solves the contrained optimization problem in $(1)$ is the $$\theta^*$$ that has the smallest norm and that also intersects the subspace formed by the constraints. Or, put another way, the optimal $$\theta^*$$ is the minimum element in the intersection between the set of norms and the set of solutions of the constraints.
 ![sparsity_lp.png]({{ site.baseurl }}/images/sparsity_lp.png)
