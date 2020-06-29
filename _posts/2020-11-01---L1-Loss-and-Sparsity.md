@@ -21,7 +21,11 @@ Here are two common regularization functions which are so common that they have 
 + If we penalize solutions with high L2 norm, then we arrive at ridge regression:
 
 $$
-\hat{x} = \text{arg}\min_x ||\Psi x - y||_2^2 + \lambda||x||_2^2.
+\hat{x} = \text{arg}\min_x ||\Psi x - y||_2^2 
+$$
+
+$$
+\text{such that   } ||x||_2^2 < \epsilon.
 $$
 
 The nice thing about ridge regression is that it has closed-form solution
@@ -35,7 +39,11 @@ Interestingly, it can be seen that the ridge regression solution makes the other
 + Alternatively, if we penalize solutions with high L1 norm, then we arrive at LASSO:
 
 $$
-\hat{x} = \text{arg}\min_x ||\Psi x-y||_2^2 + \lambda||x||_1.
+\hat{x} = \text{arg}\min_x ||\Psi x-y||_2^2 .
+$$
+
+$$
+\text{such that   } ||x||_1 < \epsilon.
 $$
 
 Specifically, it can be proved that LASSO arrives at the sparse solution with high probability. Amazingly, we can reformulate a highly intractable combinatorial problem as a continuous convex optimization problem and arrive at the same result.
