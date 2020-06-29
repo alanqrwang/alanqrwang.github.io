@@ -41,4 +41,4 @@ $$
 Specifically, it can be proved that LASSO arrives at the sparse solution with high probability. Amazingly, we can reformulate a highly intractable combinatorial problem as a continuous convex optimization problem and arrive at the same result.
 
 Why does using the L1 norm lead us to a sparse solution? In a graphical sense, the optimal $$\theta^*$$ which solves the contrained optimization problem in $(1)$ is the $$\theta^*$$ that has the smallest norm and that also intersects the subspace formed by the constraints. Or, put another way, the optimal $$\theta^*$$ is the minimum element in the intersection between the set of norms and the set of solutions of the constraints.
-![sparsity_lp.png]({{ site.baseurl }}/images/sparsity_lp.png)
+![Sparse representations]({{ site.baseurl }}/images/sparsity_lp.PNG)
