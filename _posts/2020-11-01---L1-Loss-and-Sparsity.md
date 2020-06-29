@@ -17,27 +17,28 @@ $$
 $$
 
 $$
-\text{such that   } \mathcal{R}(x) < \epsilon.
+\text{such that   } \mathcal{R}(\theta) < \epsilon.
 $$
 
-In this formulation, the regularization function $$\mathcal{R}(x)$$ is designed such that it takes high values for undesirable solutions $x$ and low values for desirable solutions $x$. The optimal $$\hat{\theta}$$ should minimize the least-squares expression while also keeping the regularization function as low as possible, which can be encoded in the constraint mathematically as being less than some arbitrary positive value $$\epsilon \in [0, \infty)$$. 
+In this formulation, the regularization function $$\mathcal{R}(\theta)$$ is designed such that it takes high values for undesirable solutions $\theta$ and low values for desirable solutions $\theta$. The optimal $$\hat{\theta}$$ should minimize the least-squares expression while also keeping the regularization function as low as possible, which can be encoded in the constraint mathematically as being less than some arbitrary positive value $$\epsilon \in [0, \infty)$$. 
 
 As examples, here are two common regularization functions which are so common that they have special names:
 
+### $$\mathcal{R(\theta)} = ||\theta||_2^2$$
 + If we penalize solutions with high L2 norm, then we arrive at ridge regression:
 
 $$
-\text{arg}\min_x ||\Psi x - y||_2^2,
+\text{arg}\min_\theta ||\Psi \theta - y||_2^2,
 $$
 
 $$
-\text{such that   } ||x||_2^2 < \epsilon.
+\text{such that   } ||\theta||_2^2 < \epsilon.
 $$
 
 The nice thing about ridge regression is that it has closed-form solution
 
 $$
-\hat{x} = (\Psi^T\Psi + \lambda I)^{-1}\Psi^Hy.
+\hat{\theta} = (\Psi^T\Psi + \lambda I)^{-1}\Psi^Ty.
 $$
 
 Interestingly, it can be seen that the ridge regression solution makes the otherwise rank-deficient matrix $(\Psi^T \Psi)^{-1}$ invertible by adding a constant $\lambda$ to the diagonal entries.
@@ -45,11 +46,11 @@ Interestingly, it can be seen that the ridge regression solution makes the other
 + Alternatively, if we penalize solutions with high L1 norm, then we arrive at LASSO:
 
 $$
-\text{arg}\min_x ||\Psi x-y||_2^2,
+\text{arg}\min_x ||\Psi \theta-y||_2^2,
 $$
 
 $$
-\text{such that   } ||x||_1 < \epsilon.
+\text{such that   } ||\theta||_1 < \epsilon.
 $$
 
 Specifically, it can be proved that LASSO arrives at the sparse solution with high probability. Amazingly, we can reformulate a highly intractable combinatorial problem as a continuous convex optimization problem and arrive at the same result.
