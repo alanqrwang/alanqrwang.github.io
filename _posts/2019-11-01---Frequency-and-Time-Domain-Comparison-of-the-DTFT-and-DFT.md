@@ -43,7 +43,7 @@ Importantly, the DTFT is $2\pi$-periodic by definition. If we have $N$ samples a
 
 $$\begin{eqnarray}
 X[k] &:=& X_d\left(\frac{2\pi}{N}k\right) = \sum_{n=-\infty}^\infty x[n] e^{-j\frac{2\pi}{N}k n} \\ \tag{1}
- &=& \sum_{m=-\infty}^\infty \sum_{n = mN}^{mN + N - 1}x_N[n] e^{-j\frac{2\pi}{N}k n} \\
+ &=& \sum_{m=-\infty}^\infty \sum_{n = mN}^{mN + N - 1}x_p[n] e^{-j\frac{2\pi}{N}k n} \\
  &=& \sum_{n=0}^{N-1} \left(\sum_{m=-\infty}^\infty x[n-mN]\right) e^{-j\frac{2\pi}{N}k n} \\
  &=& \sum_{n=0}^{N-1} x_N[n] e^{-j\frac{2\pi}{N}k n},
 \end{eqnarray}$$ 
