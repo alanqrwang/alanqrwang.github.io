@@ -45,4 +45,4 @@ Why does using the L1 norm lead us to a sparse solution? I will provide an intui
 
 ## Intuitive, Graphical Explanation hiii
 In a graphical sense, the optimal $$\theta^*$$ which solves the contrained optimization problem in $(1)$ is the $$\theta^*$$ that has the smallest norm and that also intersects the subspace formed by the constraints. Or, put another way, the optimal $$\theta^*$$ is the minimum element in the intersection between the set of norms and the set of solutions of the constraints.
-![sparsity_lp.png]({{ site.baseurl }}/images/404.jpg)
+![sparsity_lp.png]({{ site.baseurl }}/images/sparsity_lp.png)
