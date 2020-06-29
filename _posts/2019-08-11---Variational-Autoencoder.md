@@ -15,21 +15,21 @@ description: "An in-depth look at how VAEs solve the questions inherent to laten
 VAEs are a type of latent variable model. Latent variable models assume the existence of an underlying, lower-dimensional set of data that "explains" or "produces" the data we may observe, but that is not observable itself.[^1]
 
 <figure style="width: 500px">
-	<img src="/media/mnist_tsne.PNG" alt="Gutenberg">
+	<img src="{{ site.baseurl }}/images/mnist_tsne.PNG" alt="Gutenberg">
 	<figcaption>The MNIST Dataset in two-dimensional plane. Without latent knowledge, the dataset is messy and patterns are difficult to uncover.</figcaption>
 </figure>
 
 Let's model this underlying set of data by a random variable $z$, which is commonly called the latent variable. Latent variable models assume that underneath the veritable mess of high-dimensional data $x$ that we observe, there is a set of data $z$ of lower dimension that is "causing" or "producing" the set of data $x$. Without knowing $z$, $x$ is very messy and patterns are difficult to discern. However, if we know the $z$ that caused $x$ to occur, we can much more easily characterize that datum.
 
 <figure style="width: 500px">
-	<img src="/media/mnist_tsne_clustered.PNG" alt="Gutenberg">
+	<img src="{{ site.baseurl }}/images/mnist_tsne_clustered.PNG" alt="Gutenberg">
 	<figcaption>The MNIST dataset in two-dimensional plane, color-coded by corresponding label. The clusters within the dataset become clearer when the existence of the latent space is known.</figcaption>
 </figure>
 
 Especially in the context of images, the latent variable model is very powerful. For example, $z$ could represent the integers $0,1,2,..., 9$, and $x$ could be images of handwritten digits. In this example, knowing the latent space $z$ helps us make sense of the data tremendously.
 
 <figure style="width: 500px">
-	<img src="/media/mnist_tsne_clustered_labeled.PNG" alt="Gutenberg">
+	<img src="{{ site.baseurl }}/images/mnist_tsne_clustered_labeled.PNG" alt="Gutenberg">
 	<figcaption>The MNIST dataset in two-dimensional plane, color-coded and labeled with corresponding digit.</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ $$
 The problem with this method is that it takes a really long time to sample enough $z_i$'s to get a good approximation of $p(x)$. In fact, most $z_i$'s will result in $p_\theta(x|z_i)$ having low value, and thus contribute little to our approximation. This makes sense intuitively; typically, only a very small subset of settings of $z_i$ will actually map to $x$. For example, given an image of a handwritten digit, the digit it represents can only be one number out of ten. With this method, we will be wasting time calculating conditional probabilities given all ten settings of $z_i$, when in reality only one setting of $z_i$ will actually have high probability!
 
 <figure style="width: 700px">
-	<img src="/media/vae-decoder-half.PNG" alt="Gutenberg">
+	<img src="{{ site.baseurl }}/images/vae-decoder-half.PNG" alt="Gutenberg">
 	<figcaption>An inefficient way of performing inference, where it is necessary to integrate over all configurations of the latent space.</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ We can now talk about why variational autoencoders are named as they are:
 1. Notice that we have effectively replaced the posterior distribution over the latent space with a family of distributions $q_\phi$, the parameters $\phi$ of which we will optimize. This is traditionally done in a class of statistical methods called variational methods, and is the reason for the "variational" part of VAEs. 
 2. Additionally, our plan of attack is now to first pass our observed data $x$ through a "function" $q_\phi(z|x)$, which will give us a latent representation $z$ of the data, and then immediately pass this $z$ through another "function" $p_\theta(x|z)$ which we hope will learn to map that $z$ back to the original data $x$. Since we are simultaneously learning both $q_\phi$ and $p_\theta$ end-to-end, this structure is very similar to a traditional autoencoder!
 
-![VAE network](/media/vae-whole.jpg)
+![VAE network]({{ site.baseurl }}/images/vae-whole.jpg)
 
 There are still key differences between VAEs and traditional autoencoders. Autoencoders by themselves are not generative; they do not model probability distributions and are not driven to encode latent information from a Bayesian standpoint. While autoencoders do use neural networks to represent an encoder-decoder pair which is trained to encourage input-output reconstruction, the codes that an autoencoder learns are discrete in the latent space. That is, every code has a one-to-one mapping to its corresponding datum, and there is no guarantee that the autoencoder will produce something remotely plausible given a code that it has not been trained on.
 
