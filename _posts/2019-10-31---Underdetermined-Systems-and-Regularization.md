@@ -84,7 +84,7 @@ $$
 \text{   subject to   } y = \mathcal{F}_u x.
 $$
 
-$\Psi$ is the sparse transform operator and $\||\cdot\||_0$ denotes the $\ell_0$ quasi-norm, which represents the number of non-zero elements. Common choices for $\Psi$ include the wavelet transform, contourlet transform, finite-differences, etc.
+$\Psi$ is the sparse transform operator and $$\|\cdot\|_0$$ denotes the $\ell_0$ quasi-norm, which represents the number of non-zero elements. Common choices for $\Psi$ include the wavelet transform, contourlet transform, finite-differences, etc.
 
 A way to view the optimization problem in $(1)$ is to rewrite it in a Lagrangian setup:
 
