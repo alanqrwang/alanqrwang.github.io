@@ -13,29 +13,29 @@ description: "An overview of overdetermined and underdetermined systems, the rol
 In a [previous post](https://alanqrwang.github.io/posts-underdetermined-systems-and-regularization/), I discussed the concept of regularization in the underdetermined, least squares model:
 
 $$
-x^* = \text{arg}\min_x ||Ax - y||_2^2 + \lambda \mathcal{R}(x). 
-$$404
+x^* = \text{arg}\min_x ||\Psi x - y||_2^2 + \lambda \mathcal{R}(x). 
+$$
 
 Here are two common regularization functions which are so common that they have special names:
 
 If we penalize solutions with high L2 norm, then we arrive at ridge regression:
 
 $$
-\hat{x} = \text{arg}\min_x ||Ax - y||_2^2 + \lambda||x||_2^2.
+\hat{x} = \text{arg}\min_x ||\Psi x - y||_2^2 + \lambda||x||_2^2.
 $$
 
 The nice thing about ridge regression is that it has closed-form solution
 
 $$
-\hat{x} = (A^HA + \lambda I)^{-1}A^Hy.
+\hat{x} = (\Psi^T\Psi + \lambda I)^{-1}\Psi^Hy.
 $$
 
-Interestingly, it can be seen that the ridge regression solution makes the otherwise rank-deficient matrix $(A^T A)^{-1}$ invertible by adding a constant $\lambda$ to the diagonal entries.
+Interestingly, it can be seen that the ridge regression solution makes the otherwise rank-deficient matrix $(\Psi^T \Psi)^{-1}$ invertible by adding a constant $\lambda$ to the diagonal entries.
 
 Alternatively, if we penalize solutions with high L1 norm, then we arrive at LASSO:
 
 $$
-\hat{x} = \text{arg}\min_x ||Ax-y||_2^2 + \lambda||x||_1.
+\hat{x} = \text{arg}\min_x ||\Psi x-y||_2^2 + \lambda||x||_1.
 $$
 
 Specifically, it can be proved that LASSO arrives at the sparse solution with high probability. Amazingly, we can reformulate a highly intractable combinatorial problem as a continuous convex optimization problem and arrive at the same result.
