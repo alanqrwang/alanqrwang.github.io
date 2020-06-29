@@ -1,0 +1,17 @@
+---
+title: The Bayesian Approach to Image Reconstruction
+date: "2020-06-29T22:40:32.169Z"
+description: "Image reconstruction from a Bayesian perspective and how it relates to least-squares."
+---
+This ties in nicely to another common interpretation of regularization, and that is as a prior distribution in a Bayesian setting. It can be seen that our model is actually a MAP estimate:
+
+$$
+\begin{eqnarray}
+\text{arg}\min_x ||Ax - y||_2^2 + \lambda \mathcal{R}(x) 
+&=& \text{arg}\min_x e^{||Ax - y||_2^2 + \lambda \mathcal{R}(x)} \\
+&=& \text{arg}\max_x -e^{||Ax - y||_2^2} e^{\lambda \mathcal{R}(x)} \\
+&\propto& \text{arg}max_x p(y|x)p(x) 
+\end{eqnarray}
+$$
+
+Viewed this way, our regularization function represents a distribution from which we assume that our solution $x$ is sampled.
