@@ -9,18 +9,20 @@ tags:
   - "Signal Processing"
 description: "An overview of overdetermined and underdetermined systems, the role of regularization, and applications to compressed sensing."
 ---
-## Regularization 
+
 In a [previous post](https://alanqrwang.github.io/posts-underdetermined-systems-and-regularization/), I discussed the concept of regularization in the underdetermined, least squares model:
 
 $$
-\text{arg}\min_x ||\Psi x - y||_2^2,
+\text{arg}\min_x ||\Psi \theta - y||_2^2,
 $$
 
 $$
 \text{such that   } \mathcal{R}(x) < \epsilon.
 $$
 
-In this formulation, the regularization function $$\mathcal{R}(x)$$ is designed such that it takes high values for undesirable solutions $x$ and low values for desirable solutions $x$. As examples, here are two common regularization functions which are so common that they have special names:
+In this formulation, the regularization function $$\mathcal{R}(x)$$ is designed such that it takes high values for undesirable solutions $x$ and low values for desirable solutions $x$. The optimal $$\hat{\theta}$$ should minimize the least-squares expression while also keeping the regularization function as low as possible, which can be encoded in the constraint mathematically as being less than some arbitrary positive value $$\epsilon \in [0, \infty)$$. 
+
+As examples, here are two common regularization functions which are so common that they have special names:
 
 + If we penalize solutions with high L2 norm, then we arrive at ridge regression:
 
@@ -32,13 +34,13 @@ $$
 \text{such that   } ||x||_2^2 < \epsilon.
 $$
 
-  The nice thing about ridge regression is that it has closed-form solution
+The nice thing about ridge regression is that it has closed-form solution
 
 $$
 \hat{x} = (\Psi^T\Psi + \lambda I)^{-1}\Psi^Hy.
 $$
 
-  Interestingly, it can be seen that the ridge regression solution makes the otherwise rank-deficient matrix $(\Psi^T \Psi)^{-1}$ invertible by adding a constant $\lambda$ to the diagonal entries.
+Interestingly, it can be seen that the ridge regression solution makes the otherwise rank-deficient matrix $(\Psi^T \Psi)^{-1}$ invertible by adding a constant $\lambda$ to the diagonal entries.
 
 + Alternatively, if we penalize solutions with high L1 norm, then we arrive at LASSO:
 
@@ -50,7 +52,9 @@ $$
 \text{such that   } ||x||_1 < \epsilon.
 $$
 
-  Specifically, it can be proved that LASSO arrives at the sparse solution with high probability. Amazingly, we can reformulate a highly intractable combinatorial problem as a continuous convex optimization problem and arrive at the same result.
+Specifically, it can be proved that LASSO arrives at the sparse solution with high probability. Amazingly, we can reformulate a highly intractable combinatorial problem as a continuous convex optimization problem and arrive at the same result.
 
 Why does using the L1 norm lead us to a sparse solution? In a graphical sense, the optimal $$\theta^*$$ which solves the contrained optimization problem in $(1)$ is the $$\theta^*$$ that has the smallest norm and that also intersects the subspace formed by the constraints. Or, put another way, the optimal $$\theta^*$$ is the minimum element in the intersection between the set of norms and the set of solutions of the constraints.
 ![Sparse representations]({{ site.baseurl }}/images/sparsity_lp.PNG)
+
+The image above shows an example in two dimensions: 
