@@ -2,7 +2,7 @@
 layout: page
 ---
 
-I'm a PhD student at Cornell University. My advisor is [Mert Sabuncu](https://sabuncu.engineering.cornell.edu/).
+I'm a doctoral student at Cornell University. My advisor is [Mert Sabuncu](https://sabuncu.engineering.cornell.edu/).
 
 ### Publications
 \* indicates equal contribution.
