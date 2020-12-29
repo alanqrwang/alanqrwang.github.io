@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
 ---
 
-I'm a doctoral student at Cornell University. My advisor is [Mert Sabuncu](https://sabuncu.engineering.cornell.edu/).
+I'm a PhD student at Cornell University. My advisor is [Mert Sabuncu](https://sabuncu.engineering.cornell.edu/).
 
 ### Publications
 \* indicates equal contribution.
@@ -14,7 +12,7 @@ I'm a doctoral student at Cornell University. My advisor is [Mert Sabuncu](https
 
 
 
-### Contact
+### Contact me
 
 [aw847@cornell.edu](mailto:email@domain.com)
 
