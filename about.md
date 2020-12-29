@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /
+permalink: /about/
 ---
 
 I'm a PhD student at Cornell University. My advisor is [Mert Sabuncu](https://sabuncu.engineering.cornell.edu/).
