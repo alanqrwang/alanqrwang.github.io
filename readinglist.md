@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: Reading List
 permalink: /readinglist/
 ---
 
-Some information about you!
+## 2021:
+The Blank Slate, Steven Pinker
+Alexander Hamilton, Ron Chernow
 
-### More Information
+## 2020:
+12 Rules for Life, Jordan Peterson
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+
