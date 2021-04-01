@@ -12,7 +12,7 @@ permalink: /readinglist/
 
 ## 2020:
 *12 Rules for Life*, Jordan Peterson  
-*The Selfish Gene*, Richard Dawkins
+*The Selfish Gene*, Richard Dawkins  
 *The Lily of the Field and the Bird of the Air*, Soren Kierkegaard
 
 ## 2019:
