@@ -9,6 +9,7 @@ tags:
   - "Signal Processing"
   - "Math"
 description: "Connecting the physics of nuclear magnetic resonance with MRI."
+published: false
 ---
 
 ## Collecting $\textbf{k}$-space samples
