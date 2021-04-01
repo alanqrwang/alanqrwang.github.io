@@ -9,6 +9,7 @@ tags:
   - "Optimization"
   - "Math"
 description: "An intuition behind Lagrange multipliers, penalty methods, and augmented Lagrangian methods."
+published: false
 ---
 
 ## Lagrange Multipliers
