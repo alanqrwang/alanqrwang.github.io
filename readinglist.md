@@ -27,7 +27,7 @@ permalink: /readinglist/
 *Jane Eyre*, Emma Bronte  
 *The Subtle Art of Not Giving a F\*ck\**, Mark Manson  
 *How to Win Friends and Influence People\**, Dale Carnegie   
-*The Fountainhead*, Ayn Rand
+*The Fountainhead*, Ayn Rand  
 *Jews, God, and History*, Max Dimont  
 *1Q84*, Haruki Murakami  
 
