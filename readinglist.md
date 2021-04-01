@@ -23,7 +23,7 @@ permalink: /readinglist/
 
 ## 2019:
 *Jane Eyre*, Emma Bronte  
-
+*The Subtle Art of Not Giving a F\*ck*, Mark Manson  
 
 
 
