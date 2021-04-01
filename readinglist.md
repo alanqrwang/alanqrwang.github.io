@@ -32,4 +32,4 @@ permalink: /readinglist/
 *1Q84*, Haruki Murakami  
 
 
-* indicates I liked it a lot
+\* indicates I liked it a lot
