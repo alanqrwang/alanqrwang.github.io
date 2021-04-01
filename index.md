@@ -7,5 +7,5 @@ My research interests include machine learning, computer vision, deep learning, 
 
 In my free time, I enjoy playing music, running, and drinking coffee.
 
-Keywords: Machine Learning, Deep Learning, Biomedical Imaging, Computational Imaging, Computer Vision, Image Reconstruction, Inverse Problems
+**Keywords: Machine Learning, Deep Learning, Biomedical Imaging, Computational Imaging, Computer Vision, Image Reconstruction, Inverse Problems**
 
