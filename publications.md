@@ -4,6 +4,9 @@ title: Publications
 permalink: /publications/
 ---
 
+**Joint Optimization of Hadamard Sensing and Reconstruction in Compressed Sensing Fluorescence Microscopy.**  
+<ins>Alan Q. Wang\*</ins>, Aaron K. LaViolette\*, Leo Moon, Chris Xu, and Mert R.Sabuncu.
+
 **Regularization-Agnostic Compressed Sensing MRI Reconstruction with Hypernetworks.**  
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
 [[pre-print](http://arxiv.org/abs/2101.02194)] [[code](https://github.com/alanqrwang/hyperrecon)]  
