@@ -6,7 +6,7 @@ permalink: /publications/
 
 **Regularization-Agnostic Compressed Sensing MRI Reconstruction with Hypernetworks.**  
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
-[[pre-print](http://arxiv.org/abs/2101.02194)][[code](https://github.com/alanqrwang/hyperrecon)  
+[[pre-print](http://arxiv.org/abs/2101.02194)][[code](https://github.com/alanqrwang/hyperrecon)]  
 
 **Neural Network-based Reconstruction in Compressed Sensing MRI Without Fully-sampled Training Data.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu. *Machine Learning for Medical Image Reconstruction, 2020*   
