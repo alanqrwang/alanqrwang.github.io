@@ -10,6 +10,7 @@ tags:
   - "Probability"
   - "Machine Learning"
 description: "An analysis and comparison of linear regression through a risk minimization, probabilistic, and a least-squares lens."
+published: false
 ---
 
 ![lin_reg.jpg](/media/lin_reg.jpg)
