@@ -18,7 +18,7 @@ permalink: /readinglist/
 *The Denial of Death*, Ernest Becker  
 *Explaining Postmodernism*, Stephen Hicks  
 *Maps of Meaning: The Architecture of Belief*, Jordan Peterson  
-*A Brief History of Time*, Stephen Hawking
+*A Brief History of Time*, Stephen Hawking  
 *Sapiens: A Brief History of Humankind*, Yuval Noah Harari  
 
 ## 2019:
