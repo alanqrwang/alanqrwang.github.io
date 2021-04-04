@@ -8,7 +8,7 @@ permalink: /readinglist/
 *The Blank Slate*, Steven Pinker  
 *Alexander Hamilton\**, Ron Chernow  
 *Principles*, Ray Dalio   
-*The God Delusion*, Richard Dawkins
+*The God Delusion*, Richard Dawkins  
 *Rafa*, Rafael Nadal and John Carlin  
 
 ###
