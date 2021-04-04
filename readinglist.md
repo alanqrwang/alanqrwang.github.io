@@ -4,14 +4,15 @@ title: Reading List
 permalink: /readinglist/
 ---
 
-## 2021:
+### 2021:
 *The Blank Slate*, Steven Pinker  
 *Alexander Hamilton\**, Ron Chernow  
 *Principles*, Ray Dalio   
 *The God Delusion*, Richard Dawkins
 *Rafa*, Rafael Nadal and John Carlin  
 
-## 2020:
+###
+2020:
 *The Selfish Gene\**, Richard Dawkins  
 *The Lily of the Field and the Bird of the Air*, Soren Kierkegaard  
 *Deep Work*, Cal Newport  
@@ -23,7 +24,7 @@ permalink: /readinglist/
 *The Book of Why*, Judea Pearl    
 *The Moral Landscape: How Science Can Determine Human Values*, Sam Harris  
 
-## 2019:
+### 2019:
 *12 Rules for Life: An Antidote to Chaos\**, Jordan Peterson  
 *Jane Eyre*, Charlotte Bronte  
 *The Subtle Art of Not Giving a F\*ck\**, Mark Manson  
