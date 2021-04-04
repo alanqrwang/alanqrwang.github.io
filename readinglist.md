@@ -11,7 +11,6 @@ permalink: /readinglist/
 *The God Delusion*, Richard Dawkins
 
 ## 2020:
-*12 Rules for Life: An Antidote to Chaos\**, Jordan Peterson  
 *The Selfish Gene\**, Richard Dawkins  
 *The Lily of the Field and the Bird of the Air*, Soren Kierkegaard  
 *Deep Work*, Cal Newport  
@@ -24,6 +23,7 @@ permalink: /readinglist/
 *The Moral Landscape: How Science Can Determine Human Values*, Sam Harris  
 
 ## 2019:
+*12 Rules for Life: An Antidote to Chaos\**, Jordan Peterson  
 *Jane Eyre*, Emma Bronte  
 *The Subtle Art of Not Giving a F\*ck\**, Mark Manson  
 *How to Win Friends and Influence People\**, Dale Carnegie   
