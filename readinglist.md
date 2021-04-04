@@ -11,8 +11,7 @@ permalink: /readinglist/
 *The God Delusion*, Richard Dawkins  
 *Rafa*, Rafael Nadal and John Carlin  
 
-###
-2020:
+### 2020:
 *The Selfish Gene\**, Richard Dawkins  
 *The Lily of the Field and the Bird of the Air*, Soren Kierkegaard  
 *Deep Work*, Cal Newport  
