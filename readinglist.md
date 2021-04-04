@@ -9,6 +9,7 @@ permalink: /readinglist/
 *Alexander Hamilton\**, Ron Chernow  
 *Principles*, Ray Dalio   
 *The God Delusion*, Richard Dawkins
+*Rafa*, Rafael Nadal and John Carlin  
 
 ## 2020:
 *The Selfish Gene\**, Richard Dawkins  
@@ -24,7 +25,7 @@ permalink: /readinglist/
 
 ## 2019:
 *12 Rules for Life: An Antidote to Chaos\**, Jordan Peterson  
-*Jane Eyre*, Emma Bronte  
+*Jane Eyre*, Charlotte Bronte  
 *The Subtle Art of Not Giving a F\*ck\**, Mark Manson  
 *How to Win Friends and Influence People\**, Dale Carnegie   
 *The Fountainhead*, Ayn Rand  
