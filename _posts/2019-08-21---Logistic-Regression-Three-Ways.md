@@ -5,6 +5,7 @@ template: "post"
 draft: false
 slug: "/posts/probabilistic-models-for-binary-and-multiclass-classification/"
 description: "Notes on binary and multiclass classification from a probabilistic formulation."
+published: false
 ---
 How do we approach classification from a probabilistic standpoint?
 

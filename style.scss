@@ -214,7 +214,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     float: none;
@@ -269,13 +269,25 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+
+  .pic {
+    width: 50;
+    height: 50;
+  }
+  .child{
+    width: 25%;
+    float: left;
+    border: 5px solid red;
+
+  }
 }
 
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-bottom: 1px solid $lightGray;
+//   border-bottom: 1px solid #ddd;
+//   background-color: $lightGray;
 }
 
 footer {

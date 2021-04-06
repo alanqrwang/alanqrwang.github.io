@@ -10,6 +10,7 @@ tags:
   - "Probability"
   - "Machine Learning"
 description: "Image reconstruction from a Bayesian perspective and how it relates to least-squares."
+published: false
 ---
 
 This ties in nicely to another common interpretation of regularization, and that is as a prior distribution in a Bayesian setting. It can be seen that our model is actually a MAP estimate:
