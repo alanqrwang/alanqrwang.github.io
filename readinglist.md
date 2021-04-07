@@ -10,6 +10,7 @@ permalink: /readinglist/
 *Principles*, Ray Dalio   
 *The God Delusion*, Richard Dawkins  
 *Rafa*, Rafael Nadal and John Carlin  
+*Rebooting AI: Building Artificial Intelligence We Can Trust*, Gary Marcus and Ernest Davis    
 
 ### 2020:
 *The Selfish Gene\**, Richard Dawkins  
