@@ -12,6 +12,8 @@ permalink: /readinglist/
 *Rafa*, Rafael Nadal and John Carlin  
 *Rebooting AI: Building Artificial Intelligence We Can Trust*, Gary Marcus and Ernest Davis    
 *Beyond Order: 12 More Rules for Life*, Jordan Peterson  
+*Dreyer's English: An Utterly Correct Guide to Clarity and Style*, Benjamin Dreyer  
+*Wuthering Heights*, Emily Bronte  
 
 ### 2020:
 *The Selfish Gene\**, Richard Dawkins  
