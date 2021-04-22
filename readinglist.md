@@ -11,6 +11,7 @@ permalink: /readinglist/
 *The God Delusion*, Richard Dawkins  
 *Rafa*, Rafael Nadal and John Carlin  
 *Rebooting AI: Building Artificial Intelligence We Can Trust*, Gary Marcus and Ernest Davis    
+*Beyond Order: 12 More Rules for Life*, Jordan Peterson  
 
 ### 2020:
 *The Selfish Gene\**, Richard Dawkins  
