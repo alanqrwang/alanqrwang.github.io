@@ -5,6 +5,7 @@ permalink: /publications/
 ---
 
 **Joint Optimization of Hadamard Sensing and Reconstruction in Compressed Sensing Fluorescence Microscopy.**  
+*MICCAI, 2021*   
 <ins>Alan Q. Wang\*</ins>, Aaron K. LaViolette\*, Leo Moon, Chris Xu, and Mert R. Sabuncu.
 
 
