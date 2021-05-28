@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<p>A collection of photos of places that I've been.</p>
+<p>A collection of photos.</p>
 
 <div class="posts">
   {% for post in site.posts %}
