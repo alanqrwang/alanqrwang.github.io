@@ -12,6 +12,8 @@ Curated list of readings.
 *Probability, Statistics, and Random Processes For Electrical Engineering*, Alberto Leon-Garcia
 
 ### Papers
+[How to Read a Paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)  
+S. Keshav
 
 ### Blog posts
 [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
