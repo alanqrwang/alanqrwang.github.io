@@ -23,7 +23,8 @@ Curated list of readings.
 
 
 ### Other
-Unabridged list of miscellaneous readings.
+Unabridged list of miscellaneous readings.  
+
 <ins>2021:</ins>  
 *1984*, George Orwell  
 *Animal Farm*, George Orwell  
