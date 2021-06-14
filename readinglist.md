@@ -4,18 +4,24 @@ title: Reading
 permalink: /readinglist/
 ---
 
-Curated List of Best Reading Separated by Subject
+Curated list of readings
+
 ## Textbooks
+*Machine Learning: a Probabilistic Perspective*, Kevin Murphy  
+*Convex Optimization*, Stephen Boyd and Lieven Vandenberghe
+*Probability, Statistics, and Random Processes For Electrical Engineering*, Alberto Leon-Garcia
 
 ## Papers
 
 ## Blog posts
 [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 
+[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
 ## Videos/Talks
 [MIT 18.06 Linear Algebra, Spring 2005 by Gilbert Strang](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1) - Quite possibly the best virtual course with the best virtual instructor I have seen.
 
-[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
 ## Personal
 ### 2021:
 *1984*, George Orwell  
