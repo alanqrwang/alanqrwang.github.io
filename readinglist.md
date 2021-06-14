@@ -8,7 +8,7 @@ Curated list of readings
 
 ## Textbooks
 *Machine Learning: a Probabilistic Perspective*, Kevin Murphy  
-*Convex Optimization*, Stephen Boyd and Lieven Vandenberghe
+*Convex Optimization*, Stephen Boyd and Lieven Vandenberghe  
 *Probability, Statistics, and Random Processes For Electrical Engineering*, Alberto Leon-Garcia
 
 ## Papers
