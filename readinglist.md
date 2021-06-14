@@ -4,8 +4,6 @@ title: Reading
 permalink: /readinglist/
 ---
 
-Curated list of readings.
-
 ### Textbooks
 *Machine Learning: a Probabilistic Perspective*, Kevin Murphy  
 *Convex Optimization*, Stephen Boyd and Lieven Vandenberghe  
@@ -24,9 +22,7 @@ S. Keshav
 [You and Your Research by Richard Hamming](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 
 
-### Other
-Unabridged list of miscellaneous readings.  
-
+### Other (unabridged)
 <ins>2021:</ins>  
 *1984*, George Orwell  
 *Animal Farm*, George Orwell  
