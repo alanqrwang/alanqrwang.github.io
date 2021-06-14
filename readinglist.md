@@ -13,7 +13,7 @@ Curated List of Best Reading Separated by Subject
 [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 
 ## Videos/Talks
-[MIT 18.06 Linear Algebra, Spring 2005 by Gilbert Strang]https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1 - Quite possibly the best virtual course with the best virtual instructor I have seen.
+[MIT 18.06 Linear Algebra, Spring 2005 by Gilbert Strang](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1) - Quite possibly the best virtual course with the best virtual instructor I have seen.
 
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 ## Personal
