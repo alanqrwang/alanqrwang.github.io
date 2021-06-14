@@ -4,6 +4,17 @@ title: Reading List
 permalink: /readinglist/
 ---
 
+Curated List of Best Reading Separated by Subject
+## Textbooks
+
+## Papers
+
+## Blog posts
+[Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)(https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)]  
+
+
+[The Illustrated Transformer(https://jalammar.github.io/illustrated-transformer/)]  
+## Personal
 ### 2021:
 *1984*, George Orwell  
 *Animal Farm*, George Orwell  
