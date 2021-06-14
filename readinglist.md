@@ -24,7 +24,7 @@ Curated list of readings.
 
 ### Other
 Unabridged list of miscellaneous readings.
-<ins>2021:</ins>
+<ins>2021:</ins>  
 *1984*, George Orwell  
 *Animal Farm*, George Orwell  
 *The Blank Slate*, Steven Pinker  
@@ -37,7 +37,7 @@ Unabridged list of miscellaneous readings.
 *Dreyer's English: An Utterly Correct Guide to Clarity and Style*, Benjamin Dreyer  
 *Wuthering Heights*, Emily Bronte  
 
-<ins>2020:</ins>
+<ins>2020:</ins>  
 *The Selfish Gene\**, Richard Dawkins  
 *The Lily of the Field and the Bird of the Air*, Soren Kierkegaard  
 *Deep Work*, Cal Newport  
@@ -49,7 +49,7 @@ Unabridged list of miscellaneous readings.
 *The Book of Why*, Judea Pearl    
 *The Moral Landscape: How Science Can Determine Human Values*, Sam Harris  
 
-<ins>2019:</ins>
+<ins>2019:</ins>  
 *12 Rules for Life: An Antidote to Chaos\**, Jordan Peterson  
 *Jane Eyre*, Charlotte Bronte  
 *The Subtle Art of Not Giving a F\*ck\**, Mark Manson  
