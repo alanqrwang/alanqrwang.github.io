@@ -4,26 +4,27 @@ title: Reading
 permalink: /readinglist/
 ---
 
-Curated list of readings
+Curated list of readings.
 
-## Textbooks
+### Textbooks
 *Machine Learning: a Probabilistic Perspective*, Kevin Murphy  
 *Convex Optimization*, Stephen Boyd and Lieven Vandenberghe  
 *Probability, Statistics, and Random Processes For Electrical Engineering*, Alberto Leon-Garcia
 
-## Papers
+### Papers
 
-## Blog posts
+### Blog posts
 [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 
-## Videos/Talks
+### Videos/Talks
 [MIT 18.06 Linear Algebra, Spring 2005 by Gilbert Strang](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1) - Quite possibly the best virtual course with the best virtual instructor I have seen.
 
 
-## Other
-### 2021:
+### Other
+Unabridged list of miscellaneous readings.
+<ins>2021:</ins>
 *1984*, George Orwell  
 *Animal Farm*, George Orwell  
 *The Blank Slate*, Steven Pinker  
@@ -36,7 +37,7 @@ Curated list of readings
 *Dreyer's English: An Utterly Correct Guide to Clarity and Style*, Benjamin Dreyer  
 *Wuthering Heights*, Emily Bronte  
 
-### 2020:
+<ins>2020:</ins>
 *The Selfish Gene\**, Richard Dawkins  
 *The Lily of the Field and the Bird of the Air*, Soren Kierkegaard  
 *Deep Work*, Cal Newport  
@@ -48,7 +49,7 @@ Curated list of readings
 *The Book of Why*, Judea Pearl    
 *The Moral Landscape: How Science Can Determine Human Values*, Sam Harris  
 
-### 2019:
+<ins>2019:</ins>
 *12 Rules for Life: An Antidote to Chaos\**, Jordan Peterson  
 *Jane Eyre*, Charlotte Bronte  
 *The Subtle Art of Not Giving a F\*ck\**, Mark Manson  
