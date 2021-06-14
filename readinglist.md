@@ -21,7 +21,8 @@ S. Keshav
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 
 ### Videos/Talks
-[MIT 18.06 Linear Algebra, Spring 2005 by Gilbert Strang](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1) - Quite possibly the best virtual course with the best virtual instructor I have seen.
+[MIT 18.06 Linear Algebra, Spring 2005 by Gilbert Strang](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1) - Quite possibly the best virtual course with the best virtual instructor I have seen.  
+[You and Your Research by Richard Hamming](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 
 
 ### Other
