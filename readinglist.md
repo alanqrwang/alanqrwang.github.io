@@ -24,6 +24,7 @@ S. Keshav
 
 ### Other (unabridged)
 <ins>2021:</ins>  
+*To Kill A Mockingbird*, Harper Lee    
 *1984*, George Orwell  
 *Animal Farm*, George Orwell  
 *The Blank Slate*, Steven Pinker  
