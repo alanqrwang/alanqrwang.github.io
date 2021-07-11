@@ -25,6 +25,7 @@ S. Keshav
 
 ### Other (unabridged)
 <ins>2021:</ins>  
+*Crime and Punishment*, Fyodor Dostoevsky        
 *To Kill A Mockingbird*, Harper Lee    
 *1984*, George Orwell  
 *Animal Farm*, George Orwell  
