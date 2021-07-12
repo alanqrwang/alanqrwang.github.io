@@ -59,6 +59,7 @@ S. Keshav
 *The Fountainhead*, Ayn Rand  
 *Jews, God, and History*, Max Dimont  
 *1Q84*, Haruki Murakami  
+*Steve Jobs\**, Walter Isaacson    
 
 
 \* indicates I liked it a lot
