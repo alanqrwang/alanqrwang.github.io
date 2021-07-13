@@ -10,8 +10,7 @@ permalink: /readinglist/
 *Probability, Statistics, and Random Processes For Electrical Engineering*, Alberto Leon-Garcia
 
 ### Papers
-[How to Read a Paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)  
-S. Keshav
+[How to Read a Paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf), S. Keshav  
 
 ### Blog posts
 [Great Books - Jordan Peterson](https://www.jordanbpeterson.com/great-books/)  
