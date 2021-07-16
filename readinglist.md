@@ -24,6 +24,7 @@ permalink: /readinglist/
 
 ### Other (unabridged)
 <ins>2021:</ins>  
+*The Great Gatsby*, F. Scott Fitzgerald        
 *Crime and Punishment*, Fyodor Dostoevsky        
 *To Kill A Mockingbird*, Harper Lee    
 *1984*, George Orwell  
