@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Contact: alanqrwang [at] cornell [dot] edu  
+Contact: aw847 [at] cornell [dot] edu  
 
 I am a PhD student at Cornell University where I am advised by Prof. [Mert Sabuncu](https://sabuncu.engineering.cornell.edu/). Previously, I studied Computer Engineering at the University of Illinois at Urbana-Champaign.
 
