@@ -10,10 +10,10 @@ permalink: /publications/
 [[pre-print](https://arxiv.org/abs/2105.07961)] [[code](https://github.com/alanqrwang/csfm)]  
 
 
-**Regularization-Agnostic Compressed Sensing MRI Reconstruction with Hypernetworks.**  
+**HyperRecon: Regularization-Agnostic CS-MRI Reconstruction with Hypernetworks.**  
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
 *Machine Learning for Medical Image Reconstruction, 2021*   
-[[pre-print](http://arxiv.org/abs/2101.02194)] [[code](https://github.com/alanqrwang/hyperrecon)]  
+[[pre-print](http://arxiv.org/abs/2101.02194)] [[code](https://github.com/alanqrwang/hyperrecon)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-88552-6_1)]  
 
 
 **Neural Network-based Reconstruction in Compressed Sensing MRI Without Fully-sampled Training Data.**   
