@@ -4,6 +4,10 @@ title: Publications
 permalink: /publications/
 ---
 
+**Hyper-Convolutions via Implicit Kernels for Medical Imaging.**
+Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
+[[pre-print](https://arxiv.org/abs/2202.02701)]
+
 **Joint Optimization of Hadamard Sensing and Reconstruction in Compressed Sensing Fluorescence Microscopy.**  
 *MICCAI 2021*   
 <ins>Alan Q. Wang\*</ins>, Aaron K. LaViolette\*, Leo Moon, Chris Xu, and Mert R. Sabuncu.   
