@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 
 **KeypointMorph: Robust Multi-modal Affine Registration via Unsupervised Keypoint Detection.**   
-Evan M Yu, Alan Q. Wang, Adrian V Dalca, and Mert R. Sabuncu.   
+Evan M Yu, <ins>Alan Q. Wang</ins>, Adrian V Dalca, and Mert R. Sabuncu.   
 [[pre-print](https://openreview.net/forum?id=OrNzjERFybh)]
 
 **Hyper-Convolutions via Implicit Kernels for Medical Imaging.**   
