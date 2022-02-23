@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-[Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en)   
+For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
 **Computing Multiple Image Reconstructions with a Single Hypernetwork.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
