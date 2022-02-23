@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 **Computing Multiple Image Reconstructions with a Single Hypernetwork**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
-[[pre-print](https://arxiv.org/pdf/2202.11009.pdf)]  
+[[pre-print](https://arxiv.org/abs/2202.11009)]  
 
 **KeypointMorph: Robust Multi-modal Affine Registration via Unsupervised Keypoint Detection.**   
 Evan M. Yu, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.   
