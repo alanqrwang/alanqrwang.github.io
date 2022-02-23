@@ -7,8 +7,7 @@ I am a PhD student at Cornell University in the School of Electrical and Compute
 
 My research interests include machine learning, computer vision, deep learning, and computational imaging. More specifically, I am interested in designing data-driven models and algorithms that can improve image quality and decrease imaging acquisition times in biomedical modalities, including MRI and fluorescence microscopy. During my studies, I had the chance to work on anomaly detection at Google Cloud AI in 2021 and deep learning applications for wireless communications at MIT Lincoln Laboratory in 2019.
 
-Contact: aw847 [at] cornell [dot] edu  
-Info: [CV](cv_alan_wang.pdf) and [Research Statement](Research_Statement.pdf)   
-
-**Keywords: Machine Learning, Deep Learning, Biomedical Imaging, Computational Imaging, Computer Vision.**
+**Contact:** aw847 [at] cornell [dot] edu  
+**More Info:** [CV](cv_alan_wang.pdf) and [Research Statement](Research_Statement.pdf)   
+**Keywords:** Machine Learning, Deep Learning, Biomedical Imaging, Computational Imaging, Computer Vision.
 
