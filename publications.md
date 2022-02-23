@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-**Computing Multiple Image Reconstructions with a Single Hypernetwork**   
+**Computing Multiple Image Reconstructions with a Single Hypernetwork.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
 [[pre-print](https://arxiv.org/abs/2202.11009)]  
 
