@@ -2,7 +2,7 @@
 layout: post
 title: HyperRecon
 description: "Deep learning-based method for interactive and controllable image reconstruction using hypernetworks."
-published: True
+published: true
 ---
 
 In a [previous post](https://alanqrwang.github.io/posts-underdetermined-systems-and-regularization/), I discussed the concept of regularization in the underdetermined, least squares model:
