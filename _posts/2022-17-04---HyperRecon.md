@@ -1,12 +1,6 @@
 ---
+layout: post
 title: HyperRecon
-date: "2022-04-17T22:40:32.169Z"
-template: "post"
-draft: false
-slug: "/posts/hyperrecon/"
-category: "signal processing"
-tags:
-  - "Signal Processing"
 description: "Deep learning-based method for interactive and controllable image reconstruction using hypernetworks."
 published: True
 ---
