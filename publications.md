@@ -9,10 +9,10 @@ For more details, see my [Google Scholar profile](https://scholar.google.com/cit
 **Computing Multiple Image Reconstructions with a Single Hypernetwork.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
 *Machine Learning for Biomedical Imaging 2022*  
-[[pre-print](https://arxiv.org/abs/2202.11009)] [[code](https://github.com/alanqrwang/hyperrecon)]   
+[[pre-print](https://arxiv.org/abs/2202.11009)] [[code](https://github.com/alanqrwang/hyperrecon)] [[journal](https://www.melba-journal.org/papers/2022:017.html)]  
 
 **KeyMorph: Robust Multi-modal Affine Registration via Unsupervised Keypoint Detection.**   
-Evan M. Yu, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
+Evan M. Yu, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.   
 *Medical Imaging with Deep Learning, 2022*   
 [[pre-print](https://openreview.net/forum?id=OrNzjERFybh)]
 
