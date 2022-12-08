@@ -6,6 +6,10 @@ permalink: /publications/
 
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
+**A Simple Nadaraya-Watson Head can offer Explainable and Calibrated Classification.**   
+<ins>Alan Q. Wang</ins> and Mert R. Sabuncu.     
+[[pre-print](https://arxiv.org/abs/2212.03411)] 
+
 **Computing Multiple Image Reconstructions with a Single Hypernetwork.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
 *Machine Learning for Biomedical Imaging 2022*  
