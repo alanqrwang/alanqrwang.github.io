@@ -8,6 +8,7 @@ My research interests include machine learning and computer vision, especially a
 During my studies, I've also had the chance to design deep learning models as an intern at Google and MIT Lincoln Laboratory.
 
 **Contact:** aw847 [at] cornell [dot] edu  
-**More Info:** [CV](cv_alan_wang.pdf) and [Research Statement](Research_Statement.pdf)   
+<!-- **More Info:** [CV](cv_alan_wang.pdf) and [Research Statement](Research_Statement.pdf)    -->
+**More Info:** [CV](cv_alan_wang.pdf)   
 **Keywords:** Machine Learning, Deep Learning, Biomedical Imaging, Computational Imaging, Computer Vision.
 
