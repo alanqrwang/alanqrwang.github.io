@@ -9,6 +9,6 @@ During my studies, I've also had the chance to design deep learning models as an
 
 **Contact:** aw847 [at] cornell [dot] edu  
 <!-- **More Info:** [CV](cv_alan_wang.pdf) and [Research Statement](Research_Statement.pdf)    -->
-**More Info:** [CV](cv_alan_wang.pdf)  [Google Scholar](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en)   
+**More Info:** [CV](cv_alan_wang.pdf), [Google Scholar](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en)   
 **Keywords:** Machine Learning, Deep Learning, Biomedical Imaging, Computational Imaging, Computer Vision.
 
