@@ -8,7 +8,8 @@ For more details, see my [Google Scholar profile](https://scholar.google.com/cit
 
 **A Flexible Nadaraya-Watson Head Can Offer Explainable and Calibrated Classification.**   
 <ins>Alan Q. Wang</ins> and Mert R. Sabuncu.     
-[[pre-print](https://arxiv.org/abs/2212.03411)] [[code](https://github.com/alanqrwang/nwhead)]
+*Transactions on Machine Learning Research 2023*  
+[[pre-print](https://arxiv.org/abs/2212.03411)] [[code](https://github.com/alanqrwang/nwhead)] [[journal](https://openreview.net/forum?id=iEq6lhG4O3&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR))]  
 
 **Computing Multiple Image Reconstructions with a Single Hypernetwork.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
