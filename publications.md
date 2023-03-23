@@ -6,6 +6,12 @@ permalink: /publications/
 
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
+
+**Hyper-Convolutions via Implicit Kernels for Medical Imaging.**   
+Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.  
+*Medical Image Analysis, 2023*  
+[[pre-print](https://arxiv.org/abs/2202.02701)]   
+
 **A Flexible Nadaraya-Watson Head Can Offer Explainable and Calibrated Classification.**   
 <ins>Alan Q. Wang</ins> and Mert R. Sabuncu.     
 *Transactions on Machine Learning Research 2023*  
@@ -21,15 +27,10 @@ Evan M. Yu, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
 *Medical Imaging with Deep Learning, 2022* (Oral)  
 [[pre-print](https://openreview.net/forum?id=OrNzjERFybh)]
 
-**Hyper-Convolutions via Implicit Kernels for Medical Imaging.**   
-Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.   
-[[pre-print](https://arxiv.org/abs/2202.02701)]
-
 **Joint Optimization of Hadamard Sensing and Reconstruction in Compressed Sensing Fluorescence Microscopy.**  
 <ins>Alan Q. Wang\*</ins>, Aaron K. LaViolette\*, Leo Moon, Chris Xu, and Mert R. Sabuncu.   
 *MICCAI 2021*   
 [[pre-print](https://arxiv.org/abs/2105.07961)] [[code](https://github.com/alanqrwang/csfm)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-87231-1_13)] 
-
 
 **HyperRecon: Regularization-Agnostic CS-MRI Reconstruction with Hypernetworks.**  
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
