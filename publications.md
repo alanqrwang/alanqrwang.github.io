@@ -6,6 +6,9 @@ permalink: /publications/
 
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
+**Neural Pre-Processing: A Learning Framework for End-to-end Brain MRI Pre-processing.**   
+Xinzi He, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.   
+[[pre-print](https://arxiv.org/abs/2303.12148)]    
 
 **Hyper-Convolutions via Implicit Kernels for Medical Imaging.**   
 Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.  
