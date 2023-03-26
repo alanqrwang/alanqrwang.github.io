@@ -13,7 +13,7 @@ Xinzi He, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
 **Hyper-Convolutions via Implicit Kernels for Medical Imaging.**   
 Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.  
 *Medical Image Analysis, 2023*  
-[[pre-print](https://arxiv.org/abs/2202.02701)]   
+[[pre-print](https://arxiv.org/abs/2202.02701)] [[journal](https://www.sciencedirect.com/science/article/abs/pii/S1361841523000579?CMX_ID=&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED&utm_acid=218908644&utm_campaign=STMJ_AUTH_SERV_PUBLISHED&utm_in=DM352260&utm_medium=email&utm_source=AC_)]  
 
 **A Flexible Nadaraya-Watson Head Can Offer Explainable and Calibrated Classification.**   
 <ins>Alan Q. Wang</ins> and Mert R. Sabuncu.     
