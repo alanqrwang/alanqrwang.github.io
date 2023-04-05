@@ -17,12 +17,12 @@ Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
 
 **A Flexible Nadaraya-Watson Head Can Offer Explainable and Calibrated Classification.**   
 <ins>Alan Q. Wang</ins> and Mert R. Sabuncu.     
-*Transactions on Machine Learning Research 2023*  
+*Transactions on Machine Learning Research, 2023*  
 [[pre-print](https://arxiv.org/abs/2212.03411)] [[code](https://github.com/alanqrwang/nwhead)] [[journal](https://openreview.net/forum?id=iEq6lhG4O3&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR))]  
 
 **Computing Multiple Image Reconstructions with a Single Hypernetwork.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
-*Machine Learning for Biomedical Imaging 2022*  
+*Machine Learning for Biomedical Imaging, 2022*  
 [[pre-print](https://arxiv.org/abs/2202.11009)] [[code](https://github.com/alanqrwang/hyperrecon)] [[journal](https://www.melba-journal.org/papers/2022:017.html)]  
 
 **KeyMorph: Robust Multi-modal Affine Registration via Unsupervised Keypoint Detection.**   
