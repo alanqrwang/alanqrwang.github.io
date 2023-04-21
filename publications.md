@@ -6,9 +6,11 @@ permalink: /publications/
 
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
-**Neural Pre-Processing: A Learning Framework for End-to-end Brain MRI Pre-processing.**   
-Xinzi He, <ins>Alan Q. Wang</ins>, and Mert R. Sabuncu.   
-[[pre-print](https://arxiv.org/abs/2303.12148)]    
+# Journal Publications
+
+**A Robust and Interpretable Deep Learning Framework for Multi-modal Registration via Keypoints.**   
+<ins>Alan Q. Wang</ins>, Evan M. Yu, Adrian V. Dalca, Mert R. Sabuncu.  
+[[pre-print](https://arxiv.org/abs/2304.09941)] 
 
 **Hyper-Convolutions via Implicit Kernels for Medical Imaging.**   
 Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.  
@@ -23,7 +25,18 @@ Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
 **Computing Multiple Image Reconstructions with a Single Hypernetwork.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
 *Machine Learning for Biomedical Imaging, 2022*  
-[[pre-print](https://arxiv.org/abs/2202.11009)] [[code](https://github.com/alanqrwang/hyperrecon)] [[journal](https://www.melba-journal.org/papers/2022:017.html)]  
+[[pre-print](https://arxiv.org/abs/2202.11009)] [[code](https://github.com/alanqrwang/hyperrecon)] [[journal](https://www.melba-journal.org/papers/2022:017.html)]
+
+**Deep-learning-based Optimization of the Under-sampling Pattern in MRI.**  
+Cagla D. Bahadir\*, <ins>Alan Q. Wang\*</ins>, Adrian V. Dalca, Mert R. Sabuncu.  
+*IEEE Transactions on Computational Imaging, 2020*     
+[[pre-print](https://arxiv.org/abs/1907.11374)] [[journal](https://ieeexplore.ieee.org/document/9133281?source=authoralert)]   
+
+# Conference and Workshop Publications    
+
+**Neural Pre-Processing: A Learning Framework for End-to-end Brain MRI Pre-processing.**   
+Xinzi He, <ins>Alan Q. Wang</ins>, and Mert R. Sabuncu.   
+[[pre-print](https://arxiv.org/abs/2303.12148)]    
 
 **KeyMorph: Robust Multi-modal Affine Registration via Unsupervised Keypoint Detection.**   
 Evan M. Yu, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.   
@@ -40,23 +53,14 @@ Evan M. Yu, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
 *Machine Learning for Medical Image Reconstruction @ MICCAI, 2021* (Oral)  
 [[pre-print](http://arxiv.org/abs/2101.02194)] [[code](https://github.com/alanqrwang/hyperrecon)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-88552-6_1)]  
 
-
 **Neural Network-based Reconstruction in Compressed Sensing MRI Without Fully-sampled Training Data.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
 *Machine Learning for Medical Image Reconstruction @ MICCAI, 2020* (Oral)  
 [[pre-print](https://arxiv.org/abs/2007.14979)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-61598-7_3)] [[code](https://github.com/alanqrwang/HQSNet)] [[oral](https://www.youtube.com/watch?v=a5OclTvMXlI)]
 
-
 **Extending LOUPE for K-space Under-sampling Pattern Optimization in Multi-coil MRI.**   
 Jinwei Zhang, Hang Zhang, <ins>Alan Wang</ins>, Qihao Zhang, Mert Sabuncu, Pascal Spincemaille, Thanh D. Nguyen, Yi Wang.     
 *Machine Learning for Medical Image Reconstruction @ MICCAI, 2020*   
 [[pre-print](https://arxiv.org/abs/2007.14450)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-61598-7_9)]  
-
-
-**Deep-learning-based Optimization of the Under-sampling Pattern in MRI.**  
-Cagla D. Bahadir\*, <ins>Alan Q. Wang\*</ins>, Adrian V. Dalca, Mert R. Sabuncu.  
-*IEEE Transactions on Computational Imaging, 2020*     
-[[pre-print](https://arxiv.org/abs/1907.11374)] [[journal](https://ieeexplore.ieee.org/document/9133281?source=authoralert)]   
-
 
 \* indicates equal contribution.
