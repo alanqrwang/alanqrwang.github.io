@@ -6,7 +6,7 @@ permalink: /publications/
 
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
-# Journal Publications
+## Journal Publications
 
 **A Robust and Interpretable Deep Learning Framework for Multi-modal Registration via Keypoints.**   
 <ins>Alan Q. Wang</ins>, Evan M. Yu, Adrian V. Dalca, Mert R. Sabuncu.  
@@ -32,7 +32,7 @@ Cagla D. Bahadir\*, <ins>Alan Q. Wang\*</ins>, Adrian V. Dalca, Mert R. Sabuncu.
 *IEEE Transactions on Computational Imaging, 2020*     
 [[pre-print](https://arxiv.org/abs/1907.11374)] [[journal](https://ieeexplore.ieee.org/document/9133281?source=authoralert)]   
 
-# Conference and Workshop Publications    
+## Conference and Workshop Publications    
 
 **Neural Pre-Processing: A Learning Framework for End-to-end Brain MRI Pre-processing.**   
 Xinzi He, <ins>Alan Q. Wang</ins>, and Mert R. Sabuncu.   
