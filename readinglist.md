@@ -22,7 +22,25 @@ permalink: /readinglist/
 [You and Your Research by Richard Hamming](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 
 
-### Other (unabridged)
+### All readings
+<ins>2023:</ins>  
+Hamilton, Ron Chernow  
+Human Compatible, Stuart Russell  
+A Short History of Nearly Everything, Bill Bryson  
+Man's Search for Meaning, Victor Frankl  
+The Structure of Scientific Revolutions, Thoman Kuhn  
+Ego is the Enemy, Ryan Holiday  
+Caffeine, Michael Pollan  
+The Master and His Emissary, Iain McGilchrist  
+Einstein, Walter Isaacson  
+Bernoulli's Fallacy, Aubrey Clayton  
+The Alignment Problem, Brian Christian  
+
+<ins>2022:</ins>
+The Code Breaker, Walter Isaacson  
+Team of Rivals, Doris Kearns Goodwin  
+The Innovators, Walter Isaacson  
+
 <ins>2021:</ins>  
 *The Great Gatsby*, F. Scott Fitzgerald        
 *Crime and Punishment*, Fyodor Dostoevsky        
