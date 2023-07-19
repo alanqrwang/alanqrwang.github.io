@@ -1,0 +1,12 @@
+---
+layout: post
+title: The Bitter Lesson Revisited
+description: 
+published: false
+---
+In my years as a machine learning researcher, I've noticed an unmistakable trend: that more data, larger models with more parameters, leads to better performance in differet domains.
+In this post, I'll list some of these examples.
+
+## Calibration
+
+## Open Set Recognition
