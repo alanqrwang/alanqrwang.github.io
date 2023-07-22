@@ -36,7 +36,7 @@ Einstein, Walter Isaacson
 Bernoulli's Fallacy, Aubrey Clayton  
 The Alignment Problem, Brian Christian  
 
-<ins>2022:</ins>
+<ins>2022:</ins>  
 The Code Breaker, Walter Isaacson  
 Team of Rivals, Doris Kearns Goodwin  
 The Innovators, Walter Isaacson  
