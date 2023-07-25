@@ -24,22 +24,23 @@ permalink: /readinglist/
 
 ### All readings
 <ins>2023:</ins>  
-Hamilton, Ron Chernow  
-Human Compatible, Stuart Russell  
-A Short History of Nearly Everything, Bill Bryson  
-Man's Search for Meaning, Victor Frankl  
-The Structure of Scientific Revolutions, Thoman Kuhn  
-Ego is the Enemy, Ryan Holiday  
-Caffeine, Michael Pollan  
-The Master and His Emissary, Iain McGilchrist  
-Einstein, Walter Isaacson  
-Bernoulli's Fallacy, Aubrey Clayton  
-The Alignment Problem, Brian Christian  
+*Hamilton*, Ron Chernow  
+*Human Compatible*, Stuart Russell  
+*A Short History of Nearly Everything*, Bill Bryson  
+*Man's Search for Meaning*, Victor Frankl  
+*The Structure of Scientific Revolutions*, Thoman Kuhn  
+*Ego is the Enemy*, Ryan Holiday  
+*Caffeine*, Michael Pollan  
+*The Master and His Emissary*, Iain McGilchrist  
+*Einstein*, Walter Isaacson  
+*Bernoulli's Fallacy*, Aubrey Clayton  
+*The Alignment Problem*, Brian Christian  
+*Ikigai: the Japanese secret to a long and happy life*, Hector Garcia and Francesc Miralles   
 
 <ins>2022:</ins>  
-The Code Breaker, Walter Isaacson  
-Team of Rivals, Doris Kearns Goodwin  
-The Innovators, Walter Isaacson  
+*The Code Breaker*, Walter Isaacson  
+*Team of Rivals*, Doris Kearns Goodwin  
+*The Innovators*, Walter Isaacson  
 
 <ins>2021:</ins>  
 *The Great Gatsby*, F. Scott Fitzgerald        
