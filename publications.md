@@ -52,7 +52,7 @@ Evan M. Yu, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
 **HyperRecon: Regularization-Agnostic CS-MRI Reconstruction with Hypernetworks.**  
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
 *Machine Learning for Medical Image Reconstruction @ MICCAI, 2021* (Oral)  
-[[pre-print](http://arxiv.org/abs/2101.02194)] [[code](https://github.com/alanqrwang/hyperrecon)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-88552-6_1)]  
+[[pre-print](http://arxiv.org/abs/2101.02194)] [[code](https://github.com/alanqrwang/hyperrecon)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-88552-6_1)] [[oral](https://www.youtube.com/watch?v=oMbAOUADDxo)] 
 
 **Neural Network-based Reconstruction in Compressed Sensing MRI Without Fully-sampled Training Data.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
