@@ -36,6 +36,7 @@ permalink: /readinglist/
 *Bernoulli's Fallacy*, Aubrey Clayton  
 *The Alignment Problem*, Brian Christian  
 *Ikigai: the Japanese secret to a long and happy life*, Hector Garcia and Francesc Miralles   
+*The Problems of Philosophy*, Bertrand Russell     
 
 <ins>2022:</ins>  
 *The Code Breaker*, Walter Isaacson  
