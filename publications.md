@@ -10,7 +10,8 @@ For more details, see my [Google Scholar profile](https://scholar.google.com/cit
 
 **A Robust and Interpretable Deep Learning Framework for Multi-modal Registration via Keypoints.**   
 <ins>Alan Q. Wang</ins>, Evan M. Yu, Adrian V. Dalca, Mert R. Sabuncu.  
-[[pre-print](https://arxiv.org/abs/2304.09941)] 
+*Medical Image Analysis, 2023*   
+[[pre-print](https://arxiv.org/abs/2304.09941)] [[journal](https://www.sciencedirect.com/science/article/pii/S1361841523002220)]
 
 **Hyper-Convolutions via Implicit Kernels for Medical Imaging.**   
 Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.  
