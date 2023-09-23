@@ -33,7 +33,7 @@ Cagla D. Bahadir\*, <ins>Alan Q. Wang\*</ins>, Adrian V. Dalca, Mert R. Sabuncu.
 *IEEE Transactions on Computational Imaging, 2020*     
 [[pre-print](https://arxiv.org/abs/1907.11374)] [[journal](https://ieeexplore.ieee.org/document/9133281?source=authoralert)]   
 
-## Conference and Workshop Publications    
+## Conference Publications    
 
 **Learning Invariant Representations with a Nonparametric Nadarya-Watson Head.**   
 <ins>Alan Q. Wang</ins>, Minh Nguyen, and Mert R. Sabuncu.   
@@ -53,6 +53,8 @@ Evan M. Yu, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
 <ins>Alan Q. Wang\*</ins>, Aaron K. LaViolette\*, Leo Moon, Chris Xu, and Mert R. Sabuncu.   
 *MICCAI 2021*   
 [[pre-print](https://arxiv.org/abs/2105.07961)] [[code](https://github.com/alanqrwang/csfm)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-87231-1_13)] 
+
+## Workshop Publications  
 
 **HyperRecon: Regularization-Agnostic CS-MRI Reconstruction with Hypernetworks.**  
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
