@@ -35,6 +35,10 @@ Cagla D. Bahadir\*, <ins>Alan Q. Wang\*</ins>, Adrian V. Dalca, Mert R. Sabuncu.
 
 ## Conference and Workshop Publications    
 
+**Learning Invariant Representations with a Nonparametric Nadarya-Watson Head.**   
+<ins>Alan Q. Wang</ins>, Minh Nguyen, and Mert R. Sabuncu.   
+*NeurIPS 2023*       
+
 **Neural Pre-Processing: A Learning Framework for End-to-end Brain MRI Pre-processing.**   
 Xinzi He, <ins>Alan Q. Wang</ins>, and Mert R. Sabuncu.   
 *MICCAI 2023*   
