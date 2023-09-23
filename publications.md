@@ -35,7 +35,7 @@ Cagla D. Bahadir\*, <ins>Alan Q. Wang\*</ins>, Adrian V. Dalca, Mert R. Sabuncu.
 
 ## Conference Publications    
 
-**Learning Invariant Representations with a Nonparametric Nadarya-Watson Head.**   
+**Learning Invariant Representations with a Nonparametric Nadaraya-Watson Head.**   
 <ins>Alan Q. Wang</ins>, Minh Nguyen, and Mert R. Sabuncu.   
 *NeurIPS 2023*       
 
