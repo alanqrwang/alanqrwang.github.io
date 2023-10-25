@@ -12,4 +12,4 @@ During my studies, I've also had the chance to design deep learning models as an
 **More Info:** [CV](CV_AQWang_10252023.pdf), [Google Scholar](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en), [Github](https://github.com/alanqrwang/), [X (Twitter)](https://twitter.com/AlanQWang), [LinkedIn](https://www.linkedin.com/in/alanqrwang/)   
 **Keywords:** Machine Learning, Deep Learning, Biomedical Imaging, Computational Imaging, Computer Vision.
 
-*(Last updated April 2023)*  
+*(Last updated October 2023)*  
