@@ -40,10 +40,15 @@ Cagla D. Bahadir\*, <ins>Alan Q. Wang\*</ins>, Adrian V. Dalca, Mert R. Sabuncu.
 
 ## Conference Publications    
 
+**Robust Learning via Conditional Prevalence Adjustment.**   
+Minh Nguyen, <ins>Alan Q. Wang</ins>, Heejong Kim, and Mert R. Sabuncu.   
+*WACV 2023*       
+[[pre-print](https://arxiv.org/abs/2309.13377)]  
+
 **Learning Invariant Representations with a Nonparametric Nadaraya-Watson Head.**   
 <ins>Alan Q. Wang</ins>, Minh Nguyen, and Mert R. Sabuncu.   
 *NeurIPS 2023*       
-[[pre-print](https://arxiv.org/abs/2309.13377)]  
+[[pre-print](https://arxiv.org/abs/2310.15766)]  
 
 **Neural Pre-Processing: A Learning Framework for End-to-end Brain MRI Pre-processing.**   
 Xinzi He, <ins>Alan Q. Wang</ins>, and Mert R. Sabuncu.   
