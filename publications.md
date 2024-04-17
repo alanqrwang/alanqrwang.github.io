@@ -6,12 +6,10 @@ permalink: /publications/
 
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
-## Preprints
+## Journal Publications
 **A Framework for Interpretability in Machine Learning for Medical Imaging.**  
 <ins>Alan Q. Wang</ins>, Batuhan K. Karaman, Heejong Kim, Jacob Rosenthal, Rachit Saluja, Sean I. Young, Mert R. Sabuncu.  
-[[pre-print](https://arxiv.org/abs/2310.01685)]  
-
-## Journal Publications
+[[pre-print](https://arxiv.org/abs/2310.01685)]  [journal](https://ieeexplore.ieee.org/document/10496678)]  
 
 **A Robust and Interpretable Deep Learning Framework for Multi-modal Registration via Keypoints.**   
 <ins>Alan Q. Wang</ins>, Evan M. Yu, Adrian V. Dalca, Mert R. Sabuncu.  
