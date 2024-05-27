@@ -6,6 +6,11 @@ permalink: /publications/
 
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
+## Preprints
+**BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration.**  
+<ins>Alan Q. Wang</ins>, Rachit Saluja, Heejong Kim, Xinzi He, Adrian Dalca, Mert R. Sabuncu.  
+[[pre-print](https://arxiv.org/abs/2405.14019v1)]  
+
 ## Journal Publications
 **A Framework for Interpretability in Machine Learning for Medical Imaging.**  
 <ins>Alan Q. Wang</ins>, Batuhan K. Karaman, Heejong Kim, Jacob Rosenthal, Rachit Saluja, Sean I. Young, Mert R. Sabuncu.  
