@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Alan Q. Wang
-email: aw847@cornell.edu
+email: alanqrwang@gmail.com
 avatar: https://raw.githubusercontent.com/alanqrwang/alanqrwang.github.io/master/images/portrait.jpg
-description: PhD Candidate @ Cornell
+description: Postdoc @ Stanford
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alanqrwang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
