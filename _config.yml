@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Alan Q. Wang
 email: alanqrwang@gmail.com
-avatar: https://raw.githubusercontent.com/alanqrwang/alanqrwang.github.io/master/images/portrait.jpg
+avatar: https://raw.githubusercontent.com/alanqrwang/alanqrwang.github.io/master/images/alan_wang_headshot.jpg
 description: Postdoc @ Stanford
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alanqrwang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
