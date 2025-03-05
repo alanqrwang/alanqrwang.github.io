@@ -5,8 +5,6 @@ I am a Postdoctoral Scholar at Stanford University affiliated with Computer Scie
 
 My research interests are at the intersection of machine learning and medical imaging. In particular, I am interested in and have worked on developing deep learning algorithms for medical imaging and healthcare, with an emphasis on improving interpretability, robustness, and fairness of deep learning models in these contexts.
 
-I also help out with organizing the [MELBA Symposium Series](https://www.melba-journal.org/symposium.html).
-
 **Contact:** alanqw [at] stanford [dot] edu  
 <!-- **More Info:** [CV](cv_alan_wang.pdf) and [Research Statement](Research_Statement.pdf)    -->
 **More Info:** [CV](CV-AQWang-Apr2024.pdf), [Google Scholar](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en), [Github](https://github.com/alanqrwang/), [X (Twitter)](https://twitter.com/AlanQWang), [LinkedIn](https://www.linkedin.com/in/alanqrwang/)   
