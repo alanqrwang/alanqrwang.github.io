@@ -8,7 +8,7 @@ For more details, see my [Google Scholar profile](https://scholar.google.com/cit
 
 ## Preprints
 **Generating Novel Brain Morphology by Deforming Learned Templates.**  
-Alan Q. Wang, Fangrui Huang, Bailey Trang, Wei Peng, Mohammad Abbasi, Kilian Pohl, Mert Sabuncu, Ehsan Adeli.  
+<ins>Alan Q. Wang</ins>, Fangrui Huang, Bailey Trang, Wei Peng, Mohammad Abbasi, Kilian Pohl, Mert Sabuncu, Ehsan Adeli.  
 [[pre-print](https://arxiv.org/abs/2503.03778)]  
 
 **BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration.**  
