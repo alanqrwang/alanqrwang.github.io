@@ -1,19 +1,34 @@
 ---
 layout: page
-title: Publications
+title: Selected Publications
 permalink: /publications/
 ---
 
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
 ## Preprints
+**Generating Novel Brain Morphology by Deforming Learned Templates.**  
+Alan Q. Wang, Fangrui Huang, Bailey Trang, Wei Peng, Mohammad Abbasi, Kilian Pohl, Mert Sabuncu, Ehsan Adeli.  
+[[pre-print](https://arxiv.org/abs/2503.03778)]  
+
 **BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration.**  
 <ins>Alan Q. Wang</ins>, Rachit Saluja, Heejong Kim, Xinzi He, Adrian Dalca, Mert R. Sabuncu.  
 [[pre-print](https://arxiv.org/abs/2405.14019v1)]  
 
-## Journal Publications
+## Publications
+**Learning-based inference of longitudinal image changes: Applications in embryo development, wound healing, and aging brain.**   
+Heejong Kim, Batuhan K Karaman, Qingyu Zhao, <ins>Alan Q Wang</ins>, Mert R Sabuncu   
+*PNAS 2025*   
+[[journal](https://www.pnas.org/doi/abs/10.1073/pnas.2411492122)]   
+
+**Ethical Use of Artificial Intelligence in Medical Diagnostics Demands a Focus on Accuracy, Not Fairness.**   
+Mert R. Sabuncu, <ins>Alan Q. Wang</ins>, Minh Nguyen   
+*NEJM AI 2024*   
+[[journal](https://ai.nejm.org/doi/abs/10.1056/AIp2400672)]   
+
 **A Framework for Interpretability in Machine Learning for Medical Imaging.**  
-<ins>Alan Q. Wang</ins>, Batuhan K. Karaman, Heejong Kim, Jacob Rosenthal, Rachit Saluja, Sean I. Young, Mert R. Sabuncu.  
+<ins>Alan Q. Wang</ins>, Batuhan K. Karaman, Heejong Kim, Jacob Rosenthal, Rachit Saluja, Sean I. Young, Mert R. Sabuncu.
+*IEEE Access, 2024*
 [[pre-print](https://arxiv.org/abs/2310.01685)]  [[journal](https://ieeexplore.ieee.org/document/10496678)]  
 
 **A Robust and Interpretable Deep Learning Framework for Multi-modal Registration via Keypoints.**   
@@ -30,18 +45,6 @@ Tianyu Ma, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
 <ins>Alan Q. Wang</ins> and Mert R. Sabuncu.     
 *Transactions on Machine Learning Research, 2023*  
 [[pre-print](https://arxiv.org/abs/2212.03411)] [[code](https://github.com/alanqrwang/nwhead)] [[journal](https://openreview.net/forum?id=iEq6lhG4O3&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR))]  
-
-**Computing Multiple Image Reconstructions with a Single Hypernetwork.**   
-<ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
-*Machine Learning for Biomedical Imaging, 2022*  
-[[pre-print](https://arxiv.org/abs/2202.11009)] [[code](https://github.com/alanqrwang/hyperrecon)] [[journal](https://www.melba-journal.org/papers/2022:017.html)]
-
-**Deep-learning-based Optimization of the Under-sampling Pattern in MRI.**  
-Cagla D. Bahadir\*, <ins>Alan Q. Wang\*</ins>, Adrian V. Dalca, Mert R. Sabuncu.  
-*IEEE Transactions on Computational Imaging, 2020*     
-[[pre-print](https://arxiv.org/abs/1907.11374)] [[journal](https://ieeexplore.ieee.org/document/9133281?source=authoralert)]   
-
-## Conference Publications    
 
 **Robust Learning via Conditional Prevalence Adjustment.**   
 Minh Nguyen, <ins>Alan Q. Wang</ins>, Heejong Kim, and Mert R. Sabuncu.   
@@ -63,17 +66,25 @@ Evan M. Yu, <ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.
 *Medical Imaging with Deep Learning, 2022* (Oral)  
 [[pre-print](https://openreview.net/forum?id=OrNzjERFybh)]
 
+**Computing Multiple Image Reconstructions with a Single Hypernetwork.**   
+<ins>Alan Q. Wang</ins>, Adrian V. Dalca, and Mert R. Sabuncu.     
+*Machine Learning for Biomedical Imaging, 2022*  
+[[pre-print](https://arxiv.org/abs/2202.11009)] [[code](https://github.com/alanqrwang/hyperrecon)] [[journal](https://www.melba-journal.org/papers/2022:017.html)]
+
 **Joint Optimization of Hadamard Sensing and Reconstruction in Compressed Sensing Fluorescence Microscopy.**  
 <ins>Alan Q. Wang\*</ins>, Aaron K. LaViolette\*, Leo Moon, Chris Xu, and Mert R. Sabuncu.   
 *MICCAI 2021*   
 [[pre-print](https://arxiv.org/abs/2105.07961)] [[code](https://github.com/alanqrwang/csfm)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-87231-1_13)] 
 
-## Workshop Publications  
-
 **HyperRecon: Regularization-Agnostic CS-MRI Reconstruction with Hypernetworks.**  
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
 *Machine Learning for Medical Image Reconstruction @ MICCAI, 2021* (Oral)  
 [[pre-print](http://arxiv.org/abs/2101.02194)] [[code](https://github.com/alanqrwang/hyperrecon)] [[link](https://link.springer.com/chapter/10.1007/978-3-030-88552-6_1)] [[oral](https://www.youtube.com/watch?v=oMbAOUADDxo)] 
+
+**Deep-learning-based Optimization of the Under-sampling Pattern in MRI.**  
+Cagla D. Bahadir\*, <ins>Alan Q. Wang\*</ins>, Adrian V. Dalca, Mert R. Sabuncu.  
+*IEEE Transactions on Computational Imaging, 2020*     
+[[pre-print](https://arxiv.org/abs/1907.11374)] [[journal](https://ieeexplore.ieee.org/document/9133281?source=authoralert)]     
 
 **Neural Network-based Reconstruction in Compressed Sensing MRI Without Fully-sampled Training Data.**   
 <ins>Alan Q. Wang</ins>, Adrian V. Dalca, Mert R. Sabuncu.   
