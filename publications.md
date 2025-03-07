@@ -27,7 +27,7 @@ Mert R. Sabuncu, <ins>Alan Q. Wang</ins>, Minh Nguyen
 [[journal](https://ai.nejm.org/doi/abs/10.1056/AIp2400672)]   
 
 **A Framework for Interpretability in Machine Learning for Medical Imaging.**  
-<ins>Alan Q. Wang</ins>, Batuhan K. Karaman, Heejong Kim, Jacob Rosenthal, Rachit Saluja, Sean I. Young, Mert R. Sabuncu.
+<ins>Alan Q. Wang</ins>, Batuhan K. Karaman, Heejong Kim, Jacob Rosenthal, Rachit Saluja, Sean I. Young, Mert R. Sabuncu.   
 *IEEE Access, 2024*
 [[pre-print](https://arxiv.org/abs/2310.01685)]  [[journal](https://ieeexplore.ieee.org/document/10496678)]  
 
