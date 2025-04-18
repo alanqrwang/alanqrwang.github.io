@@ -15,6 +15,9 @@ For more details, see my [Google Scholar profile](https://scholar.google.com/cit
 <ins>Alan Q. Wang</ins>, Rachit Saluja, Heejong Kim, Xinzi He, Adrian Dalca, Mert R. Sabuncu.  
 [[pre-print](https://arxiv.org/abs/2405.14019v1)]  
 
+**Knockout: A simple way to handle missing inputs.**  
+Minh Nguyen*, Batuhan K. Karaman*, Heejong Kim*, <ins>Alan Q. Wang*</ins>, Fengbei Liu*, Mert R. Sabuncu
+
 ## Publications
 **Learning-based inference of longitudinal image changes: Applications in embryo development, wound healing, and aging brain.**   
 Heejong Kim, Batuhan K Karaman, Qingyu Zhao, <ins>Alan Q Wang</ins>, Mert R Sabuncu   
