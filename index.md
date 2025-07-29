@@ -7,7 +7,7 @@ My research interests are at the intersection of machine learning and medical im
 
 **Contact:** alanqw [at] stanford [dot] edu  
 <!-- **More Info:** [CV](cv_alan_wang.pdf) and [Research Statement](Research_Statement.pdf)    -->
-**More Info:** [CV](CV-AQWang-Apr2024.pdf), [Google Scholar](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en), [Github](https://github.com/alanqrwang/), [X (Twitter)](https://twitter.com/AlanQWang), [LinkedIn](https://www.linkedin.com/in/alanqrwang/)   
+**More Info:** [CV](CV_AQWang_Jun2024-2.pdf), [Google Scholar](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en), [Github](https://github.com/alanqrwang/), [X (Twitter)](https://twitter.com/AlanQWang), [LinkedIn](https://www.linkedin.com/in/alanqrwang/)   
 **Keywords:** Machine Learning, Deep Learning, Biomedical Imaging, Healthcare, Computational Imaging, Computer Vision.
 
 *(Last updated August 2024)*  
