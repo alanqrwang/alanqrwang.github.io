@@ -6,20 +6,22 @@ permalink: /publications/
 
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
-## Preprints
+## Publications
 **Generating Novel Brain Morphology by Deforming Learned Templates.**  
 <ins>Alan Q. Wang</ins>, Fangrui Huang, Bailey Trang, Wei Peng, Mohammad Abbasi, Kilian Pohl, Mert Sabuncu, Ehsan Adeli.  
+*MICCAI 2025*  
 [[pre-print](https://arxiv.org/abs/2503.03778)]  
 
 **BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration.**  
 <ins>Alan Q. Wang</ins>, Rachit Saluja, Heejong Kim, Xinzi He, Adrian Dalca, Mert R. Sabuncu.  
+*MELBA 2025*  
 [[pre-print](https://arxiv.org/abs/2405.14019v1)]  
 
 **Knockout: A simple way to handle missing inputs.**  
 Minh Nguyen*, Batuhan K. Karaman*, Heejong Kim*, <ins>Alan Q. Wang*</ins>, Fengbei Liu*, Mert R. Sabuncu  
-[[pre-print](https://arxiv.org/abs/2405.20448)]   
+*TMLR 2025*  
+[[pre-print](https://arxiv.org/abs/2405.20448)]  
 
-## Publications
 **Learning-based inference of longitudinal image changes: Applications in embryo development, wound healing, and aging brain.**   
 Heejong Kim, Batuhan K Karaman, Qingyu Zhao, <ins>Alan Q Wang</ins>, Mert R Sabuncu   
 *PNAS 2025*   
