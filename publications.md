@@ -15,7 +15,7 @@ For more details, see my [Google Scholar profile](https://scholar.google.com/cit
 **BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration.**  
 <ins>Alan Q. Wang</ins>, Rachit Saluja, Heejong Kim, Xinzi He, Adrian Dalca, Mert R. Sabuncu.  
 *MELBA 2025*  
-[[pre-print](https://arxiv.org/abs/2405.14019v1)]  
+[[pre-print](https://arxiv.org/abs/2405.14019v1)]  [[journal](https://www.melba-journal.org/papers/2025:010.html)]  [[code](https://github.com/alanqrwang/brainmorph)]   
 
 **Knockout: A simple way to handle missing inputs.**  
 Minh Nguyen*, Batuhan K. Karaman*, Heejong Kim*, <ins>Alan Q. Wang*</ins>, Fengbei Liu*, Mert R. Sabuncu  
