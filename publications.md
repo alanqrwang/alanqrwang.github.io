@@ -7,6 +7,12 @@ permalink: /publications/
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
 ## Publications
+****
+**Discovering Latent Graphs with GFlowNets for Diverse Conditional Image Generation.**
+Bailey Trang, Parham Saremi, <ins>Alan Q. Wang</ins>, Fangrui Huang, Zahra TehraniNasab, Amar Kumar, Tal Arbel, Li Fei-Fei, Ehsan Adeli.
+*NeurIPS 2025*
+[[pre-print](https://arxiv.org/abs/2510.22107)]   
+
 **Generating Novel Brain Morphology by Deforming Learned Templates.**  
 <ins>Alan Q. Wang</ins>, Fangrui Huang, Bailey Trang, Wei Peng, Mohammad Abbasi, Kilian Pohl, Mert Sabuncu, Ehsan Adeli.  
 *MICCAI 2025*  
