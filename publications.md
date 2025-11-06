@@ -8,8 +8,8 @@ For more details, see my [Google Scholar profile](https://scholar.google.com/cit
 
 ## Publications
 ****
-**Discovering Latent Graphs with GFlowNets for Diverse Conditional Image Generation.**
-Bailey Trang, Parham Saremi, <ins>Alan Q. Wang</ins>, Fangrui Huang, Zahra TehraniNasab, Amar Kumar, Tal Arbel, Li Fei-Fei, Ehsan Adeli.
+**Discovering Latent Graphs with GFlowNets for Diverse Conditional Image Generation.**    
+Bailey Trang, Parham Saremi, <ins>Alan Q. Wang</ins>, Fangrui Huang, Zahra TehraniNasab, Amar Kumar, Tal Arbel, Li Fei-Fei, Ehsan Adeli.   
 *NeurIPS 2025*   
 [[pre-print](https://arxiv.org/abs/2510.22107)]   
 
