@@ -10,7 +10,7 @@ For more details, see my [Google Scholar profile](https://scholar.google.com/cit
 **Generating Novel Brain Morphology by Deforming Learned Templates.**  
 <ins>Alan Q. Wang</ins>, Fangrui Huang, Bailey Trang, Wei Peng, Mohammad Abbasi, Kilian Pohl, Mert Sabuncu, Ehsan Adeli.  
 *MICCAI 2025*  
-[[pre-print](https://arxiv.org/abs/2503.03778)]  
+[[pre-print](https://arxiv.org/abs/2503.03778)]  [[link](https://papers.miccai.org/miccai-2025/0371-Paper2097.html)]  [[code](https://github.com/alanqrwang/morphldm)]   
 
 **BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration.**  
 <ins>Alan Q. Wang</ins>, Rachit Saluja, Heejong Kim, Xinzi He, Adrian Dalca, Mert R. Sabuncu.  
