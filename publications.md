@@ -20,7 +20,7 @@ For more details, see my [Google Scholar profile](https://scholar.google.com/cit
 **Knockout: A simple way to handle missing inputs.**  
 Minh Nguyen*, Batuhan K. Karaman*, Heejong Kim*, <ins>Alan Q. Wang*</ins>, Fengbei Liu*, Mert R. Sabuncu  
 *TMLR 2025*  
-[[pre-print](https://arxiv.org/abs/2405.20448)]  
+[[pre-print](https://arxiv.org/abs/2405.20448)]  [[journal](https://openreview.net/forum?id=K71y5pge84&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions))]   
 
 **Learning-based inference of longitudinal image changes: Applications in embryo development, wound healing, and aging brain.**   
 Heejong Kim, Batuhan K Karaman, Qingyu Zhao, <ins>Alan Q Wang</ins>, Mert R Sabuncu   
