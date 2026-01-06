@@ -7,7 +7,7 @@ permalink: /publications/
 For more details, see my [Google Scholar profile](https://scholar.google.com/citations?user=P7nRvlIAAAAJ&hl=en).   
 
 **A Tool Bottleneck Framework for Clinically-Informed and Interpretable Medical Image Understanding.**    
-Christina Liu*, <ins>Alan Q. Wang*</ins>, Joy Hsu, Jiajun Wu, Ehsan Adeli.   
+Christina Liu\*, <ins>Alan Q. Wang\*</ins>, Joy Hsu, Jiajun Wu, Ehsan Adeli.   
 *Under Review*  
 [[pre-print](https://arxiv.org/abs/2512.21414)]     
 
